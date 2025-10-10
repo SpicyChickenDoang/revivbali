@@ -32,3 +32,11 @@ export const buttonToBorder: { [key: string]: string } = {
   'nad-regenerate-500': 'border-red-500',
   'nad-elite-750': 'border-green-500',
 };
+
+export const softBorder: { [key: string]: string } = {
+    'nad-reboot-100': 'border-blue-200',
+    'nad-restore-200': 'border-purple-200',
+    'nad-revive-250': 'border-orange-200',
+    'nad-regenerate-500': 'border-red-200',
+    'nad-elite-750': 'border-green-200',
+  };

@@ -30,13 +30,13 @@ export function SiteFooter({ dictionary }: { dictionary: any }) {
               {dictionary.tagline}
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-muted-foreground hover:text-primary">
+              <Link href="#hero" className="text-muted-foreground hover:text-primary">
                 <Facebook className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary">
+              <Link href="#hero" className="text-muted-foreground hover:text-primary">
                 <Instagram className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary" onClick={() => dowa("I’d love to know more about NAD+ and its benefits.")}>
+              <Link href="#hero" className="text-muted-foreground hover:text-primary" onClick={() => dowa("I’d love to know more about NAD+ and its benefits.")}>
                 <Image
                   className="h-5 w-5"
                   src="/assets/images/wa-icon2.png"
@@ -58,16 +58,16 @@ export function SiteFooter({ dictionary }: { dictionary: any }) {
           {/* <div>
             <h3 className="font-headline font-semibold">{dictionary.company}</h3>
             <ul className="mt-4 space-y-2 text-sm">
-              <li><Link href="#" className="text-muted-foreground hover:text-primary">{dictionary.aboutUs}</Link></li>
+              <li><Link href="#hero" className="text-muted-foreground hover:text-primary">{dictionary.aboutUs}</Link></li>
               <li><Link href="/contact" className="text-muted-foreground hover:text-primary">Kontak</Link></li>
-              <li><Link href="#" className="text-muted-foreground hover:text-primary">{dictionary.careers}</Link></li>
+              <li><Link href="#hero" className="text-muted-foreground hover:text-primary">{dictionary.careers}</Link></li>
             </ul>
           </div> */}
           <div>
             <h3 className="font-headline font-semibold">{dictionary.legal}</h3>
             <ul className="mt-4 space-y-2 text-sm">
-              <li><Link href="#" className="text-muted-foreground hover:text-primary">{dictionary.privacyPolicy}</Link></li>
-              <li><Link href="#" className="text-muted-foreground hover:text-primary">{dictionary.termsOfService}</Link></li>
+              <li><Link href="#hero" className="text-muted-foreground hover:text-primary">{dictionary.privacyPolicy}</Link></li>
+              <li><Link href="#hero" className="text-muted-foreground hover:text-primary">{dictionary.termsOfService}</Link></li>
             </ul>
           </div>
         </div>

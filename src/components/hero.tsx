@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export function Hero({ dictionary }: { dictionary: any }) {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center text-white">
+    <section className="relative h-screen w-full flex items-center justify-center text-white" id="hero">
       <video
         src="https://d1wqnyfrrx5uw1.cloudfront.net/reviv-staging/REVIV_Website_Video_1_0db8eb8c18.webm"
         autoPlay
