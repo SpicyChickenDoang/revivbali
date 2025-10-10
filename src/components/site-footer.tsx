@@ -6,6 +6,8 @@ import { Facebook, Instagram, Twitter } from "lucide-react";
 import { Logo } from "./logo";
 import { Separator } from "./ui/separator";
 import { useEffect, useState } from "react";
+import Image from "next/image";
+import { dowa } from "@/lib/utils";
 
 export function SiteFooter({ dictionary }: { dictionary: any }) {
   const [copyrightText, setCopyrightText] = useState("");
@@ -34,8 +36,14 @@ export function SiteFooter({ dictionary }: { dictionary: any }) {
               <Link href="#" className="text-muted-foreground hover:text-primary">
                 <Instagram className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary">
-                <Twitter className="h-5 w-5" />
+              <Link href="#" className="text-muted-foreground hover:text-primary" onClick={() => dowa("I’d love to know more about NAD+ and its benefits.")}>
+                <Image
+                  className="h-5 w-5"
+                  src="/assets/images/wa-icon2.png"
+                  alt="wa icon"
+                  width={20}
+                  height={20}
+                />
               </Link>
             </div>
           </div>
