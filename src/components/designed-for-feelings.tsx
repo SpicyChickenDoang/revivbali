@@ -11,13 +11,13 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Locale } from "@/i18n-config";
 import { cn, dowa, formatPrice } from "@/lib/utils";
 import { Separator } from "./ui/separator";
-import { slugToGradient, buttonToBorder } from "@/lib/constant";
+// import { slugToGradient, buttonToBorder } from "@/lib/constant";
 import type { LucideProps } from "lucide-react";
 import { Zap, Sparkles, BatteryCharging, Plane, Dna } from "lucide-react";
 
 const treatments = allTreatments;
 
-export function DesignedForFeelings({ dictionary, lang }: { dictionary: any, lang: Locale }) {
+export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonToBorder, slugToColor, softBorder }: { dictionary: any, lang: Locale, slugToGradient: any, buttonToBorder: any, slugToColor: any, softBorder: any }) {
 
   const customCard = {
     title: dictionary.cards.custom.title,
@@ -28,36 +28,12 @@ export function DesignedForFeelings({ dictionary, lang }: { dictionary: any, lan
   };
 
   const iconMap: { [key: string]: React.ElementType<LucideProps> } = {
-    'nad-reboot-100': Sparkles,
-    'nad-restore-200': BatteryCharging,
-    'nad-revive-250': Plane,
-    'nad-regenerate-500': Dna,
-    'nad-elite-750': Zap,
-  };
-
-  const slugToColor: { [key: string]: string } = {
-    'nad-reboot-100': 'text-blue-300',
-    'nad-restore-200': 'text-purple-300',
-    'nad-revive-250': 'text-orange-300',
-    'nad-regenerate-500': 'text-red-300',
-    'nad-elite-750': 'text-green-300',
-  };
-
-  const buttonToBorder: { [key: string]: string } = {
-    'nad-reboot-100': 'border-blue-500',
-    'nad-restore-200': 'border-purple-500',
-    'nad-revive-250': 'border-orange-500',
-    'nad-regenerate-500': 'border-red-500',
-    'nad-elite-750': 'border-green-500',
-  };
-
-  const softBorder: { [key: string]: string } = {
-    'nad-reboot-100': 'border-blue-100',
-    'nad-restore-200': 'border-purple-100',
-    'nad-revive-250': 'border-orange-100',
-    'nad-regenerate-500': 'border-red-100',
-    'nad-elite-750': 'border-green-100',
-  };
+  'nad-reboot-100': Sparkles,
+  'nad-restore-200': BatteryCharging,
+  'nad-revive-250': Plane,
+  'nad-regenerate-500': Dna,
+  'nad-elite-750': Zap,
+};
 
   return (
     <section className="pt-8 pb-16 md:pt-12 md:pb-24 animate-in fade-in-0 slide-in-from-bottom-12 duration-700 delay-300">

@@ -3,6 +3,7 @@ import { treatments } from "@/lib/treatments";
 import { getDictionary } from "@/server/get-dictionary";
 import { Locale } from "@/i18n-config";
 import TreatmentsClient from "@/components/treatments-client"
+import { slugToGradient, buttonToBorder, softBorder } from "@/lib/constant";
 
 export default async function TreatmentsPage(props: { 
   params: Promise<{ lang: Locale }> 
@@ -23,6 +24,9 @@ export default async function TreatmentsPage(props: {
       dictionary={dictionary}
       treatmentsByCategory={treatmentsByCategory}
       lang={lang}
+      softBorder={softBorder}
+      buttonToBorder={buttonToBorder}
+      slugToGradient={slugToGradient}
     />
   );
 }

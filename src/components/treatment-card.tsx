@@ -11,33 +11,12 @@ import { cn, dowa, formatPrice } from "@/lib/utils";
 interface TreatmentCardProps {
   treatment: Treatment;
   lang: Locale;
+  softBorder: any;
+  buttonToBorder: any;
+  slugToGradient: any;
 }
 
-export default function TreatmentCard({ treatment, lang }: TreatmentCardProps) {
-  const buttonToBorder: { [key: string]: string } = {
-    'nad-reboot-100': 'border-blue-500',
-    'nad-restore-200': 'border-purple-500',
-    'nad-revive-250': 'border-orange-500',
-    'nad-regenerate-500': 'border-red-500',
-    'nad-elite-750': 'border-green-500',
-  };
-
-  const slugToGradient: { [key: string]: string } = {
-    'nad-reboot-100': 'from-blue-500/10 to-card',
-    'nad-restore-200': 'from-purple-500/10 to-card',
-    'nad-revive-250': 'from-orange-500/10 to-card',
-    'nad-regenerate-500': 'from-red-500/10 to-card',
-    'nad-elite-750': 'from-green-500/10 to-card',
-  };
-
-    const softBorder: { [key: string]: string } = {
-    'nad-reboot-100': 'border-blue-100',
-    'nad-restore-200': 'border-purple-100',
-    'nad-revive-250': 'border-orange-100',
-    'nad-regenerate-500': 'border-red-100',
-    'nad-elite-750': 'border-green-100',
-  };
-
+export default function TreatmentCard({ treatment, lang, softBorder, buttonToBorder, slugToGradient }: TreatmentCardProps) {
   const image = PlaceHolderImages.find((img) => img.id === treatment.imageId);
   const gradient = slugToGradient[treatment.slug] || 'from-transparent';
   const border = buttonToBorder[treatment.slug] || 'border-input';

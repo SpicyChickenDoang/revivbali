@@ -2,7 +2,7 @@
 "use client";
 
 import Link from "next/link";
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
 import { Logo } from "./logo";
 import { Separator } from "./ui/separator";
 import { useEffect, useState } from "react";

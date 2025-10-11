@@ -1,4 +1,3 @@
-
 "use client";
 
 import { type Treatment } from '@/lib/treatments';
@@ -28,28 +27,15 @@ interface TreatmentDetailClientPageProps {
   allTreatments: Treatment[];
   dictionary: any;
   lang: Locale;
+  softBorder: any;
+  buttonToBorder: any;
+  slugToGradient: any;
 }
 
-export default function TreatmentDetailClientPage({ treatment, allTreatments, dictionary, lang }: TreatmentDetailClientPageProps) {
+export default function TreatmentDetailClientPage({ treatment, allTreatments, dictionary, lang, softBorder, buttonToBorder, slugToGradient }: TreatmentDetailClientPageProps) {
   const plugin = React.useRef(
     Autoplay({ delay: 3000, stopOnInteraction: true })
   );
-
-  const buttonToBorder: { [key: string]: string } = {
-    'nad-reboot-100': 'border-blue-500',
-    'nad-restore-200': 'border-purple-500',
-    'nad-revive-250': 'border-orange-500',
-    'nad-regenerate-500': 'border-red-500',
-    'nad-elite-750': 'border-green-500',
-  };
-
-  const softBorder: { [key: string]: string } = {
-    'nad-reboot-100': 'border-blue-200',
-    'nad-restore-200': 'border-purple-200',
-    'nad-revive-250': 'border-orange-200',
-    'nad-regenerate-500': 'border-red-200',
-    'nad-elite-750': 'border-green-200',
-  };
 
   const [selectedVolume, setSelectedVolume] = useState('100');
 
@@ -160,7 +146,7 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
                   {allTreatments.map((related) => (
                     <CarouselItem key={related.id} className="pl-4 md:basis-1/2 lg:basis-1/3">
                       <div className="p-1 h-full">
-                        <TreatmentCard treatment={related} lang={lang} />
+                        <TreatmentCard treatment={related} lang={lang} softBorder={softBorder} buttonToBorder={buttonToBorder} slugToGradient={slugToGradient} />
                       </div>
                     </CarouselItem>
                   ))}

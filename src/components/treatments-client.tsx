@@ -10,12 +10,18 @@ interface TreatmentsClientProps {
   dictionary: Dictionary;
   treatmentsByCategory: Record<string, typeof treatments>;
   lang: Locale;
+  softBorder: any;
+  buttonToBorder: any;
+  slugToGradient: any;
 }
 
 export default function TreatmentsClient({ 
   dictionary, 
   treatmentsByCategory, 
-  lang 
+  lang ,
+  softBorder, 
+  buttonToBorder, 
+  slugToGradient
 }: TreatmentsClientProps) {
   return (
     <div className="container mx-auto px-4 py-12 md:py-16">
@@ -36,7 +42,7 @@ export default function TreatmentsClient({
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {categoryTreatments.map((treatment) => (
-                <TreatmentCard key={treatment.id} treatment={treatment} lang={lang} />
+                <TreatmentCard key={treatment.id} treatment={treatment} lang={lang} softBorder={softBorder} buttonToBorder={buttonToBorder} slugToGradient={slugToGradient} />
               ))}
             </div>
           </section>

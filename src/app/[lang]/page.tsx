@@ -7,6 +7,7 @@ import { Testimonials } from "@/components/testimonials";
 import { Hero } from "@/components/hero";
 import { WhyWeExist } from "@/components/why-we-exist";
 import { DesignedForFeelings } from "@/components/designed-for-feelings";
+import { slugToGradient, buttonToBorder, slugToColor, softBorder } from "@/lib/constant";
 import { FinalCta } from "@/components/final-cta";
 
 export default async function Home(props: {
@@ -25,7 +26,13 @@ export default async function Home(props: {
         <WhyWeExist dictionary={dictionary.whyWeExist} />
       </div>
       <div className="bg-card">
-        <DesignedForFeelings dictionary={dictionary.designedForFeelings} lang={lang} />
+        <DesignedForFeelings 
+        dictionary={dictionary.designedForFeelings} 
+        lang={lang} 
+        slugToGradient={slugToGradient} 
+        buttonToBorder={buttonToBorder} 
+        slugToColor={slugToColor} 
+        softBorder={softBorder} />
       </div>
       <div className="bg-background">
         <TrustedCare dictionary={dictionary.trustedCare} />
