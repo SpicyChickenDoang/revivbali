@@ -82,9 +82,9 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
           <div className="lg:col-span-3 justify-center items-center flex flex-col">
             <div className="relative aspect-square w-full md:w-2/3 lg:w-[50%]">
               {/* Orb as background - full size */}
-              <div className="absolute -inset-12 flex items-center justify-center z-0">
+              <div className="absolute -inset-12 flex items-center justify-center z-10">
                 <Orb
-                  hoverIntensity={0.5}
+                  hoverIntensity={0.14}
                   rotateOnHover={false}
                   hue={hue}
                   forceHoverState={false}
@@ -93,7 +93,7 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
 
               {/* Image on top - smaller than container */}
               {image && (
-                <div className="relative z-10 w-[100%] h-[100%] mx-auto my-auto justify-center">
+                <div className="relative w-[100%] h-[100%] mx-auto my-auto justify-center z-0">
                   <Image
                     src={image.imageUrl}
                     alt={treatment.name}
