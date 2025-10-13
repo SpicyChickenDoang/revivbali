@@ -8,14 +8,23 @@ import Image from "next/image";
 export function Hero({ dictionary }: { dictionary: any }) {
   return (
     <section className="relative h-screen w-full flex items-center justify-center text-white" id="hero">
-      <video
+      {/* <video
         src="https://d1wqnyfrrx5uw1.cloudfront.net/reviv-staging/REVIV_Website_Video_1_0db8eb8c18.webm"
         autoPlay
         loop
         muted
         playsInline
         className="absolute top-1/2 left-1/2 w-full h-full min-w-full min-h-full object-cover -translate-x-1/2 -translate-y-1/2"
-      ></video>
+      ></video> */}
+      <Image
+        className="absolute w-full h-full min-w-full min-h-full object-cover"
+        src="/assets/images/sunset.webp"
+        alt="hero image"
+        width={100}
+        height={100}
+        priority={true}
+        unoptimized={true}
+      />
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 text-center p-4 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-headline font-bold tracking-tight">
@@ -25,7 +34,7 @@ export function Hero({ dictionary }: { dictionary: any }) {
           {dictionary.subtitle}
         </h3>
         <Button asChild size="lg" className="mt-8 bg-green-500 hover:bg-green-600 text-white font-bold">
-          <Link href="#" target="_blank" onClick={()=>dowa("I’d love to know more about NAD+ and its benefits.")}>
+          <Link href="#" target="_blank" onClick={() => dowa("I’d love to know more about NAD+ and its benefits.")}>
             <Image
               className="mr-2 h-5 w-5"
               src="/assets/images/wa-icon.png"
