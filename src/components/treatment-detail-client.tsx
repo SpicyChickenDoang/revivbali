@@ -111,7 +111,7 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
           <div className="lg:col-span-2">
             <div className={cn("top-20 rounded-lg p-6 shadow-sm border", sborder)}>
               <h2 className="text-4xl font-bold font-headline text-primary">{treatment.name}</h2>
-              <p className="mt-4 text-lg text-foreground">{treatment.longDescription}</p>
+              <p className="mt-4 text-lg text-foreground text-justify">{treatment.longDescription}</p>
 
               <div className={cn("mt-6 border-t pt-6", sborder)}>
                 <RadioGroup
@@ -126,7 +126,7 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
                       <Label
                         htmlFor={`r-${volume.value}`}
                         className={cn(
-                          "flex items-center justify-center rounded-md border-2 border-muted p-3 text-md font-medium hover:bg-accent hover:text-accent-foreground cursor-pointer",
+                          "flex items-center justify-center rounded-md border-2 border-muted p-3 text-md font-medium hover:bg-accent hover:text-accent-foreground cursor-pointer text-lg",
                           selectedVolume === volume.value ? "bg-accent text-accent-foreground" : ""
                         )}
                       >
