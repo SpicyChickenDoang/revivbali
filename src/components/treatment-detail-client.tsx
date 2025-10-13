@@ -18,7 +18,7 @@ import {
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import Autoplay from "embla-carousel-autoplay";
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { cn, formatPrice, dowa } from '@/lib/utils';
 import Orb from './orb/Orb';
 
@@ -39,11 +39,27 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
 
   const [selectedVolume, setSelectedVolume] = useState('100');
 
+
   const { treatmentDetailPage } = dictionary;
   const image = PlaceHolderImages.find((img) => img.id === treatment.imageId);
   const hue = treatment.hue
   const border = buttonToBorder[treatment.slug] || 'border-input';
   const sborder = softBorder[treatment.slug] || 'border-input';
+  let basePrice = treatment.price
+
+  const displayPrice = useMemo(() => {
+    switch (selectedVolume) {
+      case "100":
+        return formatPrice(basePrice * 0.8);
+      case "300":
+        return formatPrice(basePrice);
+      case "500":
+        return formatPrice(basePrice * 1.2);
+      default:
+        return formatPrice(basePrice);
+    }
+  }, [selectedVolume, basePrice]);
+
 
   return (
     <div className="">
@@ -88,7 +104,7 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
                 <RadioGroup
                   defaultValue="100"
                   className="grid grid-cols-3 gap-2 mb-6"
-                  onValueChange={setSelectedVolume}
+                  onValueChange={(value) => setSelectedVolume(value)}
                   value={selectedVolume}
                 >
                   {['100', '300', '500'].map(volume => (
@@ -109,7 +125,7 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground text-lg">{treatmentDetailPage.price}</span>
                   <p className="text-3xl font-bold font-headline text-primary">
-                    {formatPrice(treatment.price)}
+                    {displayPrice}
                   </p>
                 </div>
                 <Button asChild size="lg" className="w-full mt-6 bg-accent hover:bg-accent/90 text-lg">

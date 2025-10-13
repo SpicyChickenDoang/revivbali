@@ -39,19 +39,19 @@ export const treatments: Treatment[] = [
     hue: 270,
     message: "I’d like to know more about NAD+ Restore 200 treatment!"
   },
-  {
-    id: 'nad-3',
-    slug: "nad-revive-250",
-    name: "NAD+ Revive 250",
-    price: 3390000,
-    shortDescription: "Advanced NAD+ therapy for visible skin glow and deep anti-aging repair.",
-    longDescription: "For those seeking stronger results, NAD+ Revive 250 penetrates deeper into cellular metabolism, stimulating natural collagen and DNA repair. It helps reduce inflammation, smooth fine lines, and improve overall complexion while enhancing mood and energy. Recommended for moderate fatigue, early skin aging, and mild oxidative stress.",
-    benefits: ['Deep anti-aging repair', 'Reduces inflammation', 'Smooths fine lines', 'Enhances mood and energy'],
-    category: 'IV Therapy',
-    imageId: 'nad-revive-250',
-    hue: 170,
-    message: "I’d like to know more about NAD+ Revive 250 treatment!"
-  },
+  // {
+  //   id: 'nad-3',
+  //   slug: "nad-revive-250",
+  //   name: "NAD+ Revive 250",
+  //   price: 3390000,
+  //   shortDescription: "Advanced NAD+ therapy for visible skin glow and deep anti-aging repair.",
+  //   longDescription: "For those seeking stronger results, NAD+ Revive 250 penetrates deeper into cellular metabolism, stimulating natural collagen and DNA repair. It helps reduce inflammation, smooth fine lines, and improve overall complexion while enhancing mood and energy. Recommended for moderate fatigue, early skin aging, and mild oxidative stress.",
+  //   benefits: ['Deep anti-aging repair', 'Reduces inflammation', 'Smooths fine lines', 'Enhances mood and energy'],
+  //   category: 'IV Therapy',
+  //   imageId: 'nad-revive-250',
+  //   hue: 170,
+  //   message: "I’d like to know more about NAD+ Revive 250 treatment!"
+  // },
   {
     id: 'nad-4',
     slug: "nad-regenerate-500",

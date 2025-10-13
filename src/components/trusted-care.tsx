@@ -34,7 +34,8 @@ export function TrustedCare({ dictionary }: { dictionary: any }) {
   const stats = [
     { value: dictionary.since, label: dictionary.stats.pioneering },
     { value: "50,000+", label: dictionary.stats.patients },
-    { value: "25+", label: dictionary.stats.staff },
+    { value: "8", label: dictionary.stats.doctor },
+    { value: "17", label: dictionary.stats.nurses },
   ]
 
   return (
@@ -81,7 +82,7 @@ export function TrustedCare({ dictionary }: { dictionary: any }) {
             <p className="mt-4 text-lg text-foreground">
               {dictionary.subtitle}
             </p>
-            <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
+            <div className="mt-8 grid grid-cols-1 sm:grid-cols-4 gap-8 text-center">
               {stats.map((stat) => (
                 <div key={stat.label}>
                   <p className="text-4xl font-bold font-headline text-primary">{stat.value}</p>

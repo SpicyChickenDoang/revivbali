@@ -28,12 +28,12 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
   };
 
   const iconMap: { [key: string]: React.ElementType<LucideProps> } = {
-  'nad-reboot-100': Sparkles,
-  'nad-restore-200': BatteryCharging,
-  'nad-revive-250': Plane,
-  'nad-regenerate-500': Dna,
-  'nad-elite-750': Zap,
-};
+    'nad-reboot-100': Sparkles,
+    'nad-restore-200': BatteryCharging,
+    'nad-revive-250': Plane,
+    'nad-regenerate-500': Dna,
+    'nad-elite-750': Zap,
+  };
 
   return (
     <section className="pt-8 pb-16 md:pt-12 md:pb-24 animate-in fade-in-0 slide-in-from-bottom-12 duration-700 delay-300">
@@ -41,18 +41,29 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
         <h2 className="text-3xl md:text-4xl font-headline font-bold text-center text-primary flex flex-wrap justify-center items-center">
           {dictionary.title}
         </h2>
-        <div className="flex justify-center items-center text-[4rem] font-headline font-bold">
+        <div className="flex justify-center items-center text-[2rem] lg:text-[4rem] font-headline font-bold">
           <RotatingText
-            texts={['Relaxed!', 'Energized!', 'Refreshed!', 'Power!', 'Revitalized!']}
-            mainClassName="text-accent overflow-hidden"
-            staggerFrom="first"
-            initial={{ y: '100%' }}
-            animate={{ y: 0 }}
-            exit={{ y: '-120%' }}
+            texts={[
+              'Cellular Rejuvenation',
+              'Cellular Regeneration',
+              'Mitochondrial Boost',
+              'Mental Clarity',
+              'Lasting Vitality',
+              'Radiant Skin',
+              'Complete Wellness'
+            ]}
+            mainClassName="text-accent"
+            staggerFrom="center"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
             staggerDuration={0.025}
-            splitLevelClassName="overflow-hidden"
-            transition={{ type: 'spring', damping: 30, stiffness: 400 }}
-            rotationInterval={2000}
+            // splitLevelClassName=""
+            transition={{
+              duration: 0.5,
+              ease: "easeInOut"
+            }}
+            rotationInterval={3000}
           />
         </div>
         <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

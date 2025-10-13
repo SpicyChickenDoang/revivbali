@@ -54,7 +54,8 @@
     "stats": {
       "pioneering": "merintis kesehatan IV di Bali",
       "patients": "pasien dilayani di seluruh Indonesia",
-      "staff": "dokter berlisensi, 17 perawat berpengalaman siap panggil"
+      "doctor": "dokter berlisensi",
+      "nurses": "perawat berpengalaman siap panggil"
     },
     "since": "Sejak 2023"
   },
