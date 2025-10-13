@@ -18,9 +18,10 @@ import {
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import Autoplay from "embla-carousel-autoplay";
-import React, { useState, useMemo } from 'react';
+import React, { useState } from 'react';
 import { cn, formatPrice, dowa } from '@/lib/utils';
 import Orb from './orb/Orb';
+import { useRouter, useParams } from 'next/navigation';
 
 interface TreatmentDetailClientPageProps {
   treatment: Treatment;
@@ -32,34 +33,46 @@ interface TreatmentDetailClientPageProps {
   slugToGradient: any;
 }
 
+const treatmentSlug = [
+  { slug: "nad-reboot-100", value: "100" },
+  { slug: "nad-restore-200", value: "200" },
+  { slug: "nad-regenerate-500", value: "500" },
+  { slug: "nad-elite-750", value: "750" }
+];
+
 export default function TreatmentDetailClientPage({ treatment, allTreatments, dictionary, lang, softBorder, buttonToBorder, slugToGradient }: TreatmentDetailClientPageProps) {
   const plugin = React.useRef(
     Autoplay({ delay: 3000, stopOnInteraction: true })
   );
 
-  const [selectedVolume, setSelectedVolume] = useState('100');
+  const router = useRouter();
+  const params = useParams();
+  const currentSlug = params.slug as string;
 
+  const currentVolume = treatmentSlug.find(item => item.slug === currentSlug)?.value || "100";
+
+  const getCurrentVolume = () => {
+    const current = treatmentSlug.find(item => item.slug === currentSlug);
+    return current?.value || "100";
+  };
+
+  const [selectedVolume, setSelectedVolume] = useState(getCurrentVolume());
 
   const { treatmentDetailPage } = dictionary;
   const image = PlaceHolderImages.find((img) => img.id === treatment.imageId);
   const hue = treatment.hue
   const border = buttonToBorder[treatment.slug] || 'border-input';
   const sborder = softBorder[treatment.slug] || 'border-input';
-  let basePrice = treatment.price
+  let price = treatment.price;
 
-  const displayPrice = useMemo(() => {
-    switch (selectedVolume) {
-      case "100":
-        return formatPrice(basePrice * 0.8);
-      case "300":
-        return formatPrice(basePrice);
-      case "500":
-        return formatPrice(basePrice * 1.2);
-      default:
-        return formatPrice(basePrice);
+  const handleValueChange = (value: string) => {
+    setSelectedVolume(value);
+    const selected = treatmentSlug.find(item => item.value === value);
+
+    if (selected) {
+      router.push(`/treatments/${selected.slug}`);
     }
-  }, [selectedVolume, basePrice]);
-
+  };
 
   return (
     <div className="">
@@ -104,20 +117,20 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
                 <RadioGroup
                   defaultValue="100"
                   className="grid grid-cols-3 gap-2 mb-6"
-                  onValueChange={(value) => setSelectedVolume(value)}
-                  value={selectedVolume}
+                  onValueChange={handleValueChange}
+                  value={currentVolume}
                 >
-                  {['100', '300', '500'].map(volume => (
-                    <div key={volume}>
-                      <RadioGroupItem value={volume} id={`r-${volume}`} className="sr-only" />
+                  {treatmentSlug.map(volume => (
+                    <div key={volume.value}>
+                      <RadioGroupItem value={volume.value} id={`r-${volume.value}`} className="sr-only" />
                       <Label
-                        htmlFor={`r-${volume}`}
+                        htmlFor={`r-${volume.value}`}
                         className={cn(
                           "flex items-center justify-center rounded-md border-2 border-muted p-3 text-md font-medium hover:bg-accent hover:text-accent-foreground cursor-pointer",
-                          selectedVolume === volume ? "bg-accent text-accent-foreground" : ""
+                          selectedVolume === volume.value ? "bg-accent text-accent-foreground" : ""
                         )}
                       >
-                        {volume}ml
+                        {volume.value}
                       </Label>
                     </div>
                   ))}
@@ -125,7 +138,7 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground text-lg">{treatmentDetailPage.price}</span>
                   <p className="text-3xl font-bold font-headline text-primary">
-                    {displayPrice}
+                    {formatPrice(price)}
                   </p>
                 </div>
                 <Button asChild size="lg" className="w-full mt-6 bg-accent hover:bg-accent/90 text-lg">
@@ -141,39 +154,6 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
           </div>
         </div>
       </div>
-
-      {/* All Treatments Carousel */}
-      {allTreatments.length > 0 && (
-        <div className="bg-background py-16 md:py-24">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-headline font-bold text-center">{treatmentDetailPage.related}</h2>
-            <div className="mt-12">
-              <Carousel
-                plugins={[plugin.current]}
-                className="w-full"
-                opts={{
-                  align: "start",
-                  loop: true,
-                }}
-                onMouseEnter={plugin.current.stop}
-                onMouseLeave={plugin.current.reset}
-              >
-                <CarouselContent className="-ml-4">
-                  {allTreatments.map((related) => (
-                    <CarouselItem key={related.id} className="pl-4 md:basis-1/2 lg:basis-1/3">
-                      <div className="p-1 h-full">
-                        <TreatmentCard treatment={related} lang={lang} softBorder={softBorder} buttonToBorder={buttonToBorder} slugToGradient={slugToGradient} />
-                      </div>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-                {/* <CarouselPrevious className="absolute left-[-50px] top-1/2 -translate-y-1/2 fill-black" />
-                <CarouselNext className="absolute right-[-50px] top-1/2 -translate-y-1/2 fill-black" /> */}
-              </Carousel>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 }
