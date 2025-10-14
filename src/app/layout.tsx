@@ -7,6 +7,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { WhatsappButton } from "@/components/whatsapp-button";
 import { getDictionary } from "@/server/get-dictionary";
 import { Locale, i18n } from "@/i18n-config";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "RevivBali",
@@ -26,6 +27,14 @@ export default async function RootLayout({
   return (
     <html lang={lang} suppressHydrationWarning>
       <head>
+        <Script id="gtm-script" strategy="afterInteractive">
+          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-TDW3L66J');`}
+        </Script>
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -33,11 +42,17 @@ export default async function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body
-        className={cn(
-          "min-h-screen font-body antialiased"
-        )}
-      >
+      <body className={cn("min-h-screen font-body antialiased")}>
+
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-TDW3L66J"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+
         <div className="relative flex min-h-screen flex-col">
           <SiteHeader dictionary={dictionary} />
           <main className="flex-1">{children}</main>
