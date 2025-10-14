@@ -49,7 +49,7 @@ export default async function ContactPage({ params: { lang } }: { params: { lang
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="h-6 w-6 text-primary"/>
-                  <span>contact@revivemecopy.com</span>
+                  <span>contact@revivbali.com</span>
                 </div>
                 <div className="flex items-start space-x-4">
                   <MapPin className="h-6 w-6 text-primary mt-1"/>
