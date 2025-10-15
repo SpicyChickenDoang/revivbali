@@ -18,7 +18,7 @@ export function Hero({ dictionary }: { dictionary: any }) {
       ></video> */}
       <video
         // src="https://d1wqnyfrrx5uw1.cloudfront.net/reviv-staging/REVIV_Website_Video_1_0db8eb8c18.webm"
-        src="/assets/video/nad1.webm"
+        src="/assets/video/nad12.webm"
         autoPlay
         loop
         muted
