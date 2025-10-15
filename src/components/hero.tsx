@@ -17,14 +17,24 @@ export function Hero({ dictionary }: { dictionary: any }) {
         className="absolute top-1/2 left-1/2 w-full h-full min-w-full min-h-full object-cover -translate-x-1/2 -translate-y-1/2"
       ></video> */}
       <video
-        // src="https://d1wqnyfrrx5uw1.cloudfront.net/reviv-staging/REVIV_Website_Video_1_0db8eb8c18.webm"
-        src="/assets/video/nad12.webm"
         autoPlay
         loop
         muted
         playsInline
         className="absolute top-1/2 left-1/2 w-full h-full min-w-full min-h-full object-cover -translate-x-1/2 -translate-y-1/2"
-      ></video>
+      >
+        <source
+          src="/assets/video/nad-desktop.webm"
+          type="video/webm"
+          media="(min-width: 768px)"
+        />
+        <source
+          src="/assets/video/nad-mobile.webm"
+          type="video/webm"
+          media="(max-width: 767px)"
+        />
+      </video>
+
       {/* <Image
         className="absolute w-full h-full min-w-full min-h-full object-cover"
         src="/assets/video/nad1.mp4"
