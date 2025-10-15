@@ -16,15 +16,25 @@ export function Hero({ dictionary }: { dictionary: any }) {
         playsInline
         className="absolute top-1/2 left-1/2 w-full h-full min-w-full min-h-full object-cover -translate-x-1/2 -translate-y-1/2"
       ></video> */}
-      <Image
+      <video
+        // src="https://d1wqnyfrrx5uw1.cloudfront.net/reviv-staging/REVIV_Website_Video_1_0db8eb8c18.webm"
+        src="/assets/video/nad1.webm"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute top-1/2 left-1/2 w-full h-full min-w-full min-h-full object-cover -translate-x-1/2 -translate-y-1/2"
+      ></video>
+      {/* <Image
         className="absolute w-full h-full min-w-full min-h-full object-cover"
-        src="/assets/images/sunset.webp"
+        src="/assets/video/nad1.mp4"
+        // src="/assets/images/sunset.webp"
         alt="hero image"
         width={100}
         height={100}
         priority={true}
-        unoptimized={true}
-      />
+        unoptimized={false}
+      /> */}
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 text-center p-4 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-headline font-bold tracking-tight">
