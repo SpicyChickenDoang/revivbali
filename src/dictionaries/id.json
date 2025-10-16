@@ -10,7 +10,7 @@
   "hero": {
     "title": "Merasa Lebih Muda. Pulih Lebih Cepat. Nikmati Bali Sepenuhnya.",
     "subtitle": "Tetesan IV anti-penuaan dan pemulihan — diantar ke vila Anda atau di klinik kami, 24/7.",
-    "cta": "WhatsApp Tim Medis Kami Sekarang"
+    "cta": "WhatsApp tim medis kami sekarang"
   },
   "whyWeExist": {
     "sectionTitle": "Mengapa Kami Ada",
@@ -74,24 +74,24 @@
     "clients": {
       "jessica": {
         "quote": "Tetesan pemulihan atletik ini adalah pengubah permainan! Saya pulih lebih cepat setelah lari jarak jauh. Saya merasa tidak terlalu pegal dan lebih berenergi untuk sesi latihan berikutnya.",
-        "name": "Jessica M.",
+        "name": "Andrew M.",
         "title": "Pelari Maraton"
       },
       "david": {
         "quote": "Dengan jadwal saya yang padat, tetesan penambah energi adalah senjata rahasia saya. Itu membuat saya tetap tajam, fokus, and siap menghadapi tantangan apa pun. Sangat direkomendasikan!",
         "name": "David L.",
-        "title": "Pengusaha"
+        "title": "Entrepreneur"
       },
       "sophia": {
         "quote": "Tetesan pendukung kekebalan tubuh telah menjadi penyelamat, terutama selama musim flu. Saya belum pernah sakit sejak memulai sesi saya. Saya merasa lebih sehat dari sebelumnya.",
-        "name": "Sophia K.",
-        "title": "Ibu Bekerja"
+        "name": "Stevian W.",
+        "title": "Software Engineer"
       }
     }
   },
   "finalCta": {
     "title": "Merasa Lebih Muda. Hidup Lebih Kuat. Mulai Hari Ini.",
-    "cta": "WhatsApp Tim Medis Kami Sekarang"
+    "cta": "WhatsApp tim medis kami sekarang"
   },
   "treatmentsPage": {
     "title": "Perawatan Kami",

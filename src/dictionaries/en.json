@@ -10,7 +10,7 @@
   "hero": {
     "title": "Feel Younger. Recover Faster. Live Bali Fully.",
     "subtitle": "Anti-aging and recovery IV drips — delivered to your villa or in our clinic, 24/7.",
-    "cta": "WhatsApp Our Medical Team Now"
+    "cta": "WhatsApp our medical team now"
   },
   "whyWeExist": {
     "sectionTitle": "Why We Exist",
@@ -74,7 +74,7 @@
     "clients": {
       "jessica": {
         "quote": "The athletic recovery drip is a game-changer! I bounce back so much faster after my long runs. I feel less sore and more energized for my next training session.",
-        "name": "Jessica M.",
+        "name": "Andrew M.",
         "title": "Marathon Runner"
       },
       "david": {
@@ -84,14 +84,14 @@
       },
       "sophia": {
         "quote": "The immune support drip has been a lifesaver, especially during flu season. I haven't been sick once since I started my sessions. I feel healthier than ever.",
-        "name": "Sophia K.",
-        "title": "Working Mom"
+        "name": "Stevian W.",
+        "title": "Software Engineer"
       }
     }
   },
   "finalCta": {
     "title": "Feel Younger. Live Stronger. Start Today.",
-    "cta": "WhatsApp Our Medical Team Now"
+    "cta": "WhatsApp our medical team now"
   },
   "treatmentsPage": {
     "title": "Our Treatments",

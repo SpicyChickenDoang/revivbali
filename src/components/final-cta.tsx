@@ -26,7 +26,7 @@ export function FinalCta({ dictionary }: { dictionary: any }) {
         <h2 className="text-4xl md:text-5xl font-headline font-bold">
           {dictionary.title}
         </h2>
-        <Button asChild size="lg" className="mt-8 bg-green-500 hover:bg-green-600 text-white font-bold">
+        <Button asChild size="lg" className="mt-8 bg-green-500 hover:bg-green-600 text-white font-bold rounded-full px-6 py-3">
           <Link href="#" target="_blank" onClick={()=>dowa("I’d love to know more about NAD+ and its benefits.")}>
             <Image
               className="mr-2 h-5 w-5"
