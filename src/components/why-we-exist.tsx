@@ -1,12 +1,11 @@
 
-import Image from "next/image";
+// import Image from "next/image";
 
 export function WhyWeExist({ dictionary }: { dictionary: any }) {
   return (
     <section className="py-16 md:py-24 animate-in fade-in-0 slide-in-from-top-12 duration-700 delay-200">
       <div className="container mx-auto px-4">
-        <div className="flex items-center">
-          <div className="flex-col space-y-4">
+          <div className="flex flex-col space-y-4 text-center">
             <h2 className="text-sm font-semibold uppercase tracking-wider text-primary">{dictionary.sectionTitle}</h2>
             <h1 className="text-4xl md:text-5xl font-headline font-bold">{dictionary.title}</h1>
             <h3 className="text-lg text-muted-foreground">{dictionary.subtitle}</h3>
@@ -21,7 +20,6 @@ export function WhyWeExist({ dictionary }: { dictionary: any }) {
               loading="lazy"
             />
           </div> */}
-        </div>
       </div>
     </section>
   );
