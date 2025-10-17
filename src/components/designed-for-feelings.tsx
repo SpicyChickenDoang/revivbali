@@ -63,7 +63,7 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
               duration: 0.5,
               ease: "easeInOut"
             }}
-            rotationInterval={3000}
+            rotationInterval={1500}
           />
         </div>
         <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
