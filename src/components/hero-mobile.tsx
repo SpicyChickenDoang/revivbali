@@ -37,7 +37,7 @@ export function HeroMobile({ dictionary }: { dictionary: any }) {
             media="(max-width: 767px)"
           />
         </video>
-        <div className="text-[2rem] lg:text-[4rem] font-headline font-bold absolute bottom-[150px] [text-shadow:4px_4px_12px_rgba(0,0,0,10)] rounded-md">
+        {/* <div className="text-[2rem] lg:text-[4rem] font-headline font-bold absolute bottom-[150px] [text-shadow:4px_4px_12px_rgba(0,0,0,10)] rounded-md">
           <RotatingText
             texts={[
               'Cellular Rejuvenation',
@@ -61,7 +61,7 @@ export function HeroMobile({ dictionary }: { dictionary: any }) {
             }}
             rotationInterval={3000}
           />
-        </div>
+        </div> */}
 
         {/* <Image
         className="absolute w-full h-full min-w-full min-h-full object-cover"
