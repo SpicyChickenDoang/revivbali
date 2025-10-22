@@ -58,7 +58,6 @@ export default async function RootLayout({
           <main className="flex-1">{children}</main>
           <SiteFooter dictionary={dictionary.footer} />
         </div>
-        <WhatsappButton dictionary={dictionary} />
         <Toaster />
       </body>
     </html>

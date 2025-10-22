@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { dowa } from "@/lib/utils";
 import Image from "next/image";
 import RotatingText from "./rotate/RotatingText";
-import ScrollRevealDiv from "./ScrollRevealDiv";
 import { ChevronUp } from 'lucide-react'; // Example icon
 
 export function HeroMobile({ dictionary }: { dictionary: any }) {
@@ -38,23 +37,6 @@ export function HeroMobile({ dictionary }: { dictionary: any }) {
             media="(max-width: 767px)"
           />
         </video>
-        <ScrollRevealDiv>
-          {/* The content that is hidden/shown */}
-          <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <Button asChild size="lg" className="mt-8 bg-green-500 hover:bg-green-600 text-white font-bold rounded-full px-6 py-3">
-              <Link href="#" target="_blank" onClick={() => dowa("I’d love to know more about NAD+ and its benefits.")}>
-                <Image
-                  className="mr-2 h-5 w-5"
-                  src="/assets/images/wa-icon.png"
-                  alt="wa icon"
-                  width={20}
-                  height={20}
-                />
-                {dictionary.cta}
-              </Link>
-            </Button>
-          </button>
-        </ScrollRevealDiv>
         <div className="text-[2rem] lg:text-[4rem] font-headline font-bold absolute bottom-[150px] [text-shadow:4px_4px_12px_rgba(0,0,0,10)] rounded-md">
           <RotatingText
             texts={[

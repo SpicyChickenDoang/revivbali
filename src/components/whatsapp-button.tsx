@@ -1,13 +1,24 @@
-
 "use client";
 
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { dowa } from "@/lib/utils";
+import { useEffect, useState } from "react";
 
-export function WhatsappButton({ dictionary }: { dictionary: any }) {
-  if (!dictionary) return null;
+export function WhatsappButton() {
+  const [scrolled, setScrolled] = useState(false);
+  
+    useEffect(() => {
+      const handleScroll = () => {
+        setScrolled(window.scrollY > 10);
+      };
+      window.addEventListener("scroll", handleScroll);
+      return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+    if (!scrolled) {
+      return null;
+    }
 
   return (
     <Button
@@ -15,16 +26,13 @@ export function WhatsappButton({ dictionary }: { dictionary: any }) {
       size="icon"
       onClick={() => dowa("I’d love to know more about NAD+ and its benefits.")}
     >
-      <>
-        <Image
-          className="h-8 w-8 text-white"
-          src="/assets/images/wa-icon.png"
-          alt="wa icon"
-          width={20}
-          height={20}
-        />
-        <span className="sr-only">{dictionary.whatsapp}</span>
-      </>
+      <Image
+        className="h-8 w-8 text-white"
+        src="/assets/images/wa-icon.png"
+        alt="wa icon"
+        width={20}
+        height={20}
+      />
     </Button>
   );
 }

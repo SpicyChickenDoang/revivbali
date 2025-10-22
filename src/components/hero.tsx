@@ -10,7 +10,7 @@ export function Hero({ dictionary }: { dictionary: any }) {
 
   if (!isMobile) {
     return <HeroDesktop dictionary={dictionary} />;
-  } else if (isMobile) {
+  } else {
     return <HeroMobile dictionary={dictionary} />;
   }
 }
