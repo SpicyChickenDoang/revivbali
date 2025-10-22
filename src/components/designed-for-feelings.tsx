@@ -41,7 +41,7 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
         <h2 className="text-3xl md:text-4xl font-headline font-bold text-center text-primary flex flex-wrap justify-center items-center">
           {dictionary.title}
         </h2>
-        <div className="flex justify-center items-center text-[2rem] lg:text-[4rem] font-headline font-bold">
+        <div className="flex justify-center items-center text-[1.8rem] lg:text-[4rem] font-headline font-bold">
           <RotatingText
             texts={[
               'Cellular Rejuvenation',

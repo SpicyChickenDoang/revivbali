@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { dowa } from "@/lib/utils";
 import Image from "next/image";
+import RotatingText from "./rotate/RotatingText";
 
 export function HeroMobile({ dictionary }: { dictionary: any }) {
   return (
@@ -35,6 +36,31 @@ export function HeroMobile({ dictionary }: { dictionary: any }) {
             media="(max-width: 767px)"
           />
         </video>
+        <div className="text-[2rem] lg:text-[4rem] font-headline font-bold absolute bottom-[150px]">
+          <RotatingText
+            texts={[
+              'Cellular Rejuvenation',
+              'Cellular Regeneration',
+              'Mitochondrial Boost',
+              'Mental Clarity',
+              'Lasting Vitality',
+              'Radiant Skin',
+              'Complete Wellness'
+            ]}
+            mainClassName="text-accent overflow-hidden justify-center"
+            staggerFrom="center"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            staggerDuration={0.025}
+            // splitLevelClassName=""
+            transition={{
+              duration: 0.5,
+              ease: "easeInOut"
+            }}
+            rotationInterval={3000}
+          />
+        </div>
 
         {/* <Image
         className="absolute w-full h-full min-w-full min-h-full object-cover"
@@ -46,7 +72,7 @@ export function HeroMobile({ dictionary }: { dictionary: any }) {
         priority={true}
         unoptimized={false}
       /> */}
-      {/* <div className="absolute inset-0 bg-black/50" /> */}
+        {/* <div className="absolute inset-0 bg-black/50" /> */}
       </section>
 
       <div className="text-center p-4 max-w-4xl mx-auto my-9" >
