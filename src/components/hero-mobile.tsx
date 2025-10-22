@@ -36,7 +36,7 @@ export function HeroMobile({ dictionary }: { dictionary: any }) {
             media="(max-width: 767px)"
           />
         </video>
-        <div className="text-[2rem] lg:text-[4rem] font-headline font-bold absolute bottom-[150px]">
+        <div className="text-[2rem] lg:text-[4rem] font-headline font-bold absolute bottom-[150px] [text-shadow:4px_4px_12px_rgba(0,0,0,10)] rounded-md">
           <RotatingText
             texts={[
               'Cellular Rejuvenation',
@@ -47,7 +47,7 @@ export function HeroMobile({ dictionary }: { dictionary: any }) {
               'Radiant Skin',
               'Complete Wellness'
             ]}
-            mainClassName="text-accent overflow-hidden justify-center"
+            mainClassName="text-white overflow-hidden justify-center"
             staggerFrom="center"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
