@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import RotatingText from './rotate/RotatingText'
+// import RotatingText from './rotate/RotatingText'
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { treatments as allTreatments } from "@/lib/treatments";
@@ -41,7 +41,7 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
         <h2 className="text-3xl md:text-4xl font-headline font-bold text-center text-primary flex flex-wrap justify-center items-center">
           {dictionary.title}
         </h2>
-        <div className="flex justify-center items-center text-[1.8rem] lg:text-[4rem] font-headline font-bold">
+        {/* <div className="flex justify-center items-center text-[1.8rem] lg:text-[4rem] font-headline font-bold">
           <RotatingText
             texts={[
               'Cellular Rejuvenation',
@@ -65,7 +65,7 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
             }}
             rotationInterval={1500}
           />
-        </div>
+        </div> */}
         <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {treatments.map((treatment) => {
             const image = PlaceHolderImages.find((img) => img.id === treatment.imageId);

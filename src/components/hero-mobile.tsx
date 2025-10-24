@@ -5,9 +5,19 @@ import { Button } from "@/components/ui/button";
 import { dowa } from "@/lib/utils";
 import Image from "next/image";
 import RotatingText from "./rotate/RotatingText";
-import { ChevronUp } from 'lucide-react'; // Example icon
+import { useEffect, useState } from "react";
 
 export function HeroMobile({ dictionary }: { dictionary: any }) {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
       <section className="relative h-screen w-full flex items-center justify-center text-white" id="hero">
@@ -37,7 +47,20 @@ export function HeroMobile({ dictionary }: { dictionary: any }) {
             media="(max-width: 767px)"
           />
         </video>
-        {/* <div className="text-[2rem] lg:text-[4rem] font-headline font-bold absolute bottom-[150px] [text-shadow:4px_4px_12px_rgba(0,0,0,10)] rounded-md">
+        {/* {!scrolled &&
+          <Button asChild className="bg-green-500 hover:bg-green-600 text-white text-2xl font-bold absolute bottom-[45%] rounded-full h-[4rem] w-[46%] mt-5">
+            <Link href="#" target="_blank" onClick={() => dowa("I would like to book a NAD+ infusion.")}>
+              <Image
+                className="mr-2 h-7 w-7"
+                src="/assets/images/wa-icon.png"
+                alt="wa icon"
+                width={20}
+                height={20}
+              />
+              Book Now
+            </Link>
+          </Button>} */}
+        <div className="text-[2rem] lg:text-[4rem] font-headline font-bold absolute bottom-[150px] [text-shadow:4px_4px_12px_rgba(0,0,0,10)] rounded-md">
           <RotatingText
             texts={[
               'Cellular Rejuvenation',
@@ -48,7 +71,7 @@ export function HeroMobile({ dictionary }: { dictionary: any }) {
               'Radiant Skin',
               'Complete Wellness'
             ]}
-            mainClassName="text-white overflow-hidden justify-center"
+            mainClassName="text-accent overflow-hidden justify-center"
             staggerFrom="center"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -59,9 +82,9 @@ export function HeroMobile({ dictionary }: { dictionary: any }) {
               duration: 0.5,
               ease: "easeInOut"
             }}
-            rotationInterval={3000}
+            rotationInterval={1800}
           />
-        </div> */}
+        </div>
 
         {/* <Image
         className="absolute w-full h-full min-w-full min-h-full object-cover"
@@ -84,7 +107,7 @@ export function HeroMobile({ dictionary }: { dictionary: any }) {
           {dictionary.subtitle}
         </h3>
         <Button asChild size="lg" className="mt-8 bg-green-500 hover:bg-green-600 text-white font-bold rounded-full px-6 py-3">
-          <Link href="#" target="_blank" onClick={() => dowa("I’d love to know more about NAD+ and its benefits.")}>
+          <Link href="#" target="_blank" onClick={() => dowa("I would like to book a NAD+ infusion.")}>
             <Image
               className="mr-2 h-5 w-5"
               src="/assets/images/wa-icon.png"

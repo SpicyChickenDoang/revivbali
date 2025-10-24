@@ -24,7 +24,7 @@ export const treatments: Treatment[] = [
     category: 'IV Therapy',
     imageId: 'nad-reboot-100',
     hue: 30,
-    message: "I’d like to know more about NAD+ Reboot 100 treatment!"
+    message: "I’d like to book NAD+ Reboot 100 treatment!"
   },
   {
     id: 'nad-2',
@@ -37,7 +37,7 @@ export const treatments: Treatment[] = [
     category: 'IV Therapy',
     imageId: 'nad-restore-200',
     hue: 270,
-    message: "I’d like to know more about NAD+ Restore 200 treatment!"
+    message: "I’d like to book NAD+ Restore 200 treatment!"
   },
   // {
   //   id: 'nad-3',
@@ -50,7 +50,7 @@ export const treatments: Treatment[] = [
   //   category: 'IV Therapy',
   //   imageId: 'nad-revive-250',
   //   hue: 170,
-  //   message: "I’d like to know more about NAD+ Revive 250 treatment!"
+  //   message: "I’d like to book NAD+ Revive 250 treatment!"
   // },
   {
     id: 'nad-4',
@@ -63,7 +63,7 @@ export const treatments: Treatment[] = [
     category: 'IV Therapy',
     imageId: 'nad-regenerate-500',
     hue: 220,
-    message: "I’d like to know more about NAD+ Regenerate 500 treatment!"
+    message: "I’d like to book NAD+ Regenerate 500 treatment!"
   },
   {
     id: 'nad-5',
@@ -76,6 +76,6 @@ export const treatments: Treatment[] = [
     category: 'IV Therapy',
     imageId: 'nad-elite-750',
     hue: 120,
-    message: "I’d like to know more about NAD+ Elite 750 treatment!"
+    message: "I’d like to book NAD+ Elite 750 treatment!"
   }
 ];
