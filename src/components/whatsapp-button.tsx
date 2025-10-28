@@ -27,7 +27,7 @@ export function WhatsappButton() {
       onClick={() => dowa("I would like to book a NAD+ infusion.")}
     >
       <Image
-        className="h-8 w-8 text-white"
+        className="h-8 w-8 text-white "
         src="/assets/images/wa-icon.png"
         alt="wa icon"
         width={20}
