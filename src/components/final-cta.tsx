@@ -7,20 +7,15 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { dowa } from "@/lib/utils";
 
 export function FinalCta({ dictionary }: { dictionary: any }) {
-  const ctaImage = PlaceHolderImages.find((img) => img.id === "final-cta");
-
   return (
     <section className="relative py-24 md:py-32 w-full flex items-center justify-center text-white text-center">
-      {ctaImage && (
         <Image
           src={"/assets/images/sunset.webp"}
-          alt={ctaImage.description}
-          data-ai-hint={ctaImage.imageHint}
+          alt={"Sunset background"}
           fill
           className="object-cover object-bottom"
           loading="lazy"
         />
-      )}
       <div className="absolute inset-0 bg-black/60" />
       <div className="relative z-10 p-4 max-w-3xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-headline font-bold">
