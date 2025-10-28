@@ -13,7 +13,7 @@ export function FinalCta({ dictionary }: { dictionary: any }) {
     <section className="relative py-24 md:py-32 w-full flex items-center justify-center text-white text-center">
       {ctaImage && (
         <Image
-          src={ctaImage.imageUrl}
+          src={"/assets/images/sunset.webp"}
           alt={ctaImage.description}
           data-ai-hint={ctaImage.imageHint}
           fill
