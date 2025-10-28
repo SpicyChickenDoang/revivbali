@@ -20,7 +20,7 @@ const carouselImages = [
   { id: 4, src: "/assets/images/people/_4.webp", alt: "Doctor reviewing notes", hint: "doctor computer" },
   { id: 5, src: "/assets/images/people/_5.webp", alt: "Microscopic view of cells", hint: "science microscope" },
   { id: 6, src: "/assets/images/people/_6.webp", alt: "Modern medical facility", hint: "modern clinic" },
-  { id: 7, src: "/assets/images/people/_7.webp", alt: "Doctor reviewing notes", hint: "doctor computer" },
+  { id: 8, src: "/assets/images/people/_8.webp", alt: "Doctor reviewing notes", hint: "doctor computer" },
   // { id: 8, src: "/assets/images/people/_8.webp", alt: "Microscopic view of cells", hint: "science microscope" },
   // { id: 9, src: "/assets/images/people/_9.webp", alt: "Modern medical facility", hint: "modern clinic" },
   // { id: 10, src: "/assets/images/people/_10.webp", alt: "Modern medical facility", hint: "modern clinic" },
