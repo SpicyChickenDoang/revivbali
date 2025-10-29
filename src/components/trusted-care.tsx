@@ -14,16 +14,16 @@ import {
 } from "@/components/ui/carousel";
 
 const carouselImages = [
-  { id: 1, src: "/assets/images/people/_1.webp", alt: "Doctor reviewing notes", hint: "doctor computer" },
-  { id: 2, src: "/assets/images/people/_2.webp", alt: "Microscopic view of cells", hint: "science microscope" },
-  { id: 3, src: "/assets/images/people/_3.webp", alt: "Modern medical facility", hint: "modern clinic" },
-  { id: 4, src: "/assets/images/people/_4.webp", alt: "Doctor reviewing notes", hint: "doctor computer" },
-  { id: 5, src: "/assets/images/people/_5.webp", alt: "Microscopic view of cells", hint: "science microscope" },
-  { id: 6, src: "/assets/images/people/_6.webp", alt: "Modern medical facility", hint: "modern clinic" },
-  { id: 8, src: "/assets/images/people/_8.webp", alt: "Doctor reviewing notes", hint: "doctor computer" },
-  // { id: 8, src: "/assets/images/people/_8.webp", alt: "Microscopic view of cells", hint: "science microscope" },
-  // { id: 9, src: "/assets/images/people/_9.webp", alt: "Modern medical facility", hint: "modern clinic" },
-  // { id: 10, src: "/assets/images/people/_10.webp", alt: "Modern medical facility", hint: "modern clinic" },
+  { id: 1, src: "/assets/images/people/_1.webp", alt: "three girls smiling having iv drips" },
+  { id: 2, src: "/assets/images/people/_2.webp", alt: "a family having iv drips by the pool side" },
+  { id: 3, src: "/assets/images/people/_3.webp", alt: "three guys chilling having iv drips" },
+  { id: 4, src: "/assets/images/people/_4.webp", alt: "a family having iv drips by the beach side" },
+  { id: 5, src: "/assets/images/people/_5.webp", alt: "a cople having iv drips by the pool side" },
+  { id: 6, src: "/assets/images/people/_6.webp", alt: "a family of 6 having iv drips by the pool side" },
+  { id: 8, src: "/assets/images/people/_8.webp", alt: "a school of adults having iv drips" },
+  // { id: 8, src: "/assets/images/people/_8.webp", alt: "Microscopic view of cells" },
+  // { id: 9, src: "/assets/images/people/_9.webp", alt: "Modern medical facility" },
+  // { id: 10, src: "/assets/images/people/_10.webp", alt: "Modern medical facility" },
 ];
 
 export function TrustedCare({ dictionary }: { dictionary: any }) {
@@ -60,7 +60,6 @@ export function TrustedCare({ dictionary }: { dictionary: any }) {
                       <Image
                         src={image.src}
                         alt={image.alt}
-                        data-ai-hint={image.hint}
                         className="object-cover object-[25%_75%]"
                         fill
                         loading="lazy"
