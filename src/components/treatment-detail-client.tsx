@@ -5,23 +5,13 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-// import { Badge } from '@/components/ui/badge';
-import TreatmentCard from '@/components/treatment-card';
 import { Locale } from '@/i18n-config';
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  // CarouselNext,
-  // CarouselPrevious,
-} from "@/components/ui/carousel";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import Autoplay from "embla-carousel-autoplay";
-import React, { useState } from 'react';
 import { cn, formatPrice, dowa } from '@/lib/utils';
 import Orb from './orb/Orb';
-import { useRouter, useParams } from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 
 interface TreatmentDetailClientPageProps {
   treatment: Treatment;
@@ -41,37 +31,21 @@ const treatmentSlug = [
 ];
 
 export default function TreatmentDetailClientPage({ treatment, allTreatments, dictionary, lang, softBorder, buttonToBorder, slugToGradient }: TreatmentDetailClientPageProps) {
-  const plugin = React.useRef(
-    Autoplay({ delay: 3000, stopOnInteraction: true })
-  );
-
   const router = useRouter();
   const params = useParams();
   const currentSlug = params.slug as string;
 
   const currentVolume = treatmentSlug.find(item => item.slug === currentSlug)?.value || "100";
 
-  const getCurrentVolume = () => {
-    const current = treatmentSlug.find(item => item.slug === currentSlug);
-    return current?.value || "100";
-  };
-
-  const [selectedVolume, setSelectedVolume] = useState(getCurrentVolume());
-
   const { treatmentDetailPage } = dictionary;
   const image = PlaceHolderImages.find((img) => img.id === treatment.imageId);
   const hue = treatment.hue
-  const border = buttonToBorder[treatment.slug] || 'border-input';
+  // const border = buttonToBorder[treatment.slug] || 'border-input';
   const sborder = softBorder[treatment.slug] || 'border-input';
   let price = treatment.price;
 
-  const handleValueChange = (value: string) => {
-    setSelectedVolume(value);
-    const selected = treatmentSlug.find(item => item.value === value);
-
-    if (selected) {
-      router.push(`/treatments/${selected.slug}`);
-    }
+  const preloadRoute = (slug: string) => {
+    router.prefetch(`/treatments/${slug}`);
   };
 
   return (
@@ -117,21 +91,29 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
                 <RadioGroup
                   defaultValue="100"
                   className="grid grid-cols-3 gap-2 mb-6"
-                  onValueChange={handleValueChange}
                   value={currentVolume}
                 >
                   {treatmentSlug.map(volume => (
                     <div key={volume.value}>
-                      <RadioGroupItem value={volume.value} id={`r-${volume.value}`} className="sr-only" />
-                      <Label
-                        htmlFor={`r-${volume.value}`}
-                        className={cn(
-                          "flex items-center justify-center rounded-md border-2 border-muted p-3 text-md font-medium hover:bg-accent hover:text-accent-foreground cursor-pointer text-lg",
-                          selectedVolume === volume.value ? "bg-accent text-accent-foreground" : ""
-                        )}
+                      <RadioGroupItem
+                        value={volume.value}
+                        id={`r-${volume.value}`}
+                        className="sr-only"
+                      />
+                      <Link
+                        href={`/treatments/${volume.slug}`}
+                        onMouseEnter={() => preloadRoute(volume.slug)}
                       >
-                        {volume.value}
-                      </Label>
+                        <Label
+                          htmlFor={`r-${volume.value}`}
+                          className={cn(
+                            "flex items-center justify-center rounded-md border-2 border-muted p-3 text-md font-medium hover:bg-accent hover:text-accent-foreground cursor-pointer text-lg",
+                            currentVolume === volume.value ? "bg-accent text-accent-foreground" : ""
+                          )}
+                        >
+                          {volume.value}
+                        </Label>
+                      </Link>
                     </div>
                   ))}
                 </RadioGroup>
