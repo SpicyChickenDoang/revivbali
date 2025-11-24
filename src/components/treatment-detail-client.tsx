@@ -26,6 +26,7 @@ interface TreatmentDetailClientPageProps {
 const treatmentSlug = [
   { slug: "nad-reboot-100", value: "100" },
   { slug: "nad-restore-200", value: "200" },
+  { slug: "nad-revive-250", value: "250" },
   { slug: "nad-regenerate-500", value: "500" },
   { slug: "nad-elite-750", value: "750" }
 ];
