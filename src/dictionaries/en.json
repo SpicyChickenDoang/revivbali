@@ -75,19 +75,19 @@
     "subtitle": "Real stories from people who've experienced the RevivBali difference.",
     "clients": {
       "jessica": {
-        "quote": "The athletic recovery drip is a game-changer! I bounce back so much faster after my long runs. I feel less sore and more energized for my next training session.",
-        "name": "June P.",
-        "title": "Marathon Runner"
-      },
-      "david": {
-        "quote": "With my hectic schedule, the energy boost drip is my secret weapon. It keeps me sharp, focused, and ready to tackle any challenge. Highly recommended!",
-        "name": "Darwin N.",
+        "quote": "Running a business in Bali gets overwhelming. After a few sessions, I noticed my focus lasted longer and I wasn’t as mentally drained by midday. It helped me stay clear and grounded.",
+        "name": "Rafi K.",
         "title": "Entrepreneur"
       },
+      "david": {
+        "quote": "I started these sessions because I wanted something that helps me feel younger, not just look younger. After a few weeks, my energy felt steadier and my skin looked fresher. It became part of my aging-well routine.",
+        "name": "Clara M.",
+        "title": "Creative Director"
+      },
       "sophia": {
-        "quote": "The immune support drip has been a lifesaver, especially during flu season. I haven't been sick once since I started my sessions. I feel healthier than ever.",
-        "name": "Stevian W.",
-        "title": "Software Engineer"
+        "quote": "The mental fog I usually get mid-week disappeared. I felt sharper and more present, especially at work.",
+        "name": "Alex T.",
+        "title": "Remote Worker"
       }
     }
   },

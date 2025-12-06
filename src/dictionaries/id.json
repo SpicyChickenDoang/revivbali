@@ -1,4 +1,3 @@
-
 {
   "navigation": {
     "home": "Beranda",
@@ -71,24 +70,20 @@
     }
   },
   "testimonials": {
-    "title": "Apa Kata Klien Kami",
-    "subtitle": "Kisah nyata dari orang-orang yang telah merasakan perbedaan RevivBali.",
-    "clients": {
-      "jessica": {
-        "quote": "Tetesan pemulihan atletik ini adalah pengubah permainan! Saya pulih lebih cepat setelah lari jarak jauh. Saya merasa tidak terlalu pegal dan lebih berenergi untuk sesi latihan berikutnya.",
-        "name": "June P.",
-        "title": "Pelari Maraton"
-      },
-      "david": {
-        "quote": "Dengan jadwal saya yang padat, tetesan penambah energi adalah senjata rahasia saya. Itu membuat saya tetap tajam, fokus, and siap menghadapi tantangan apa pun. Sangat direkomendasikan!",
-        "name": "Darwin N.",
-        "title": "Entrepreneur"
-      },
-      "sophia": {
-        "quote": "Tetesan pendukung kekebalan tubuh telah menjadi penyelamat, terutama selama musim flu. Saya belum pernah sakit sejak memulai sesi saya. Saya merasa lebih sehat dari sebelumnya.",
-        "name": "Stevian W.",
-        "title": "Software Engineer"
-      }
+    "jessica": {
+      "quote": "Menjalankan bisnis di Bali terasa sangat membebani. Setelah beberapa sesi, saya menyadari fokus saya bertahan lebih lama dan saya tidak lagi kelelahan secara mental menjelang tengah hari. Ini membantu saya tetap jernih dan membumi.",
+      "name": "Rafi K.",
+      "title": "Wiraswasta/Pengusaha"
+    },
+    "david": {
+      "quote": "Saya memulai sesi ini karena saya menginginkan sesuatu yang membantu saya merasa lebih muda, bukan hanya terlihat lebih muda. Setelah beberapa minggu, energi saya terasa lebih stabil dan kulit saya tampak lebih segar. Ini menjadi bagian dari rutinitas penuaan yang sehat bagi saya.",
+      "name": "Clara M.",
+      "title": "Direktur Kreatif"
+    },
+    "sophia": {
+      "quote": "Kekaburan mental yang biasanya saya alami di tengah minggu menghilang. Saya merasa lebih tajam dan lebih hadir, terutama saat bekerja.",
+      "name": "Alex T.",
+      "title": "Pekerja Jarak Jauh (Remote Worker)"
     }
   },
   "finalCta": {
