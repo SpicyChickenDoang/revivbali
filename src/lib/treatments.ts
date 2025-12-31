@@ -26,19 +26,19 @@ export const treatments: Treatment[] = [
     hue: 30,
     message: "I’d like to book NAD+ Reboot 100 treatment!"
   },
-  {
-    id: 'nad-2',
-    slug: "nad-restore-200",
-    name: "NAD+ Restore 200",
-    price: 2990000,
-    shortDescription: "Daily anti-aging infusion to restore energy, clarity, and skin vitality.",
-    longDescription: "NAD+ Restore 200 supports collagen production, promotes radiant skin, and revitalizes cellular energy. Perfect for professionals or travelers who want to fight early signs of aging, dryness, or dullness. Regular sessions help maintain smoother skin, sharper focus, and balanced mood — keeping you vibrant through Bali’s demanding pace.",
-    benefits: ['Fights early signs of aging', 'Restores skin vitality', 'Sharper focus', 'Balanced mood'],
-    category: 'IV Therapy',
-    imageId: 'nad-restore-200',
-    hue: 270,
-    message: "I’d like to book NAD+ Restore 200 treatment!"
-  },
+  // {
+  //   id: 'nad-2',
+  //   slug: "nad-restore-200",
+  //   name: "NAD+ Restore 200",
+  //   price: 2990000,
+  //   shortDescription: "Daily anti-aging infusion to restore energy, clarity, and skin vitality.",
+  //   longDescription: "NAD+ Restore 200 supports collagen production, promotes radiant skin, and revitalizes cellular energy. Perfect for professionals or travelers who want to fight early signs of aging, dryness, or dullness. Regular sessions help maintain smoother skin, sharper focus, and balanced mood — keeping you vibrant through Bali’s demanding pace.",
+  //   benefits: ['Fights early signs of aging', 'Restores skin vitality', 'Sharper focus', 'Balanced mood'],
+  //   category: 'IV Therapy',
+  //   imageId: 'nad-restore-200',
+  //   hue: 270,
+  //   message: "I’d like to book NAD+ Restore 200 treatment!"
+  // },
   {
     id: 'nad-3',
     slug: "nad-revive-250",
