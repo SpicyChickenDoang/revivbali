@@ -69,7 +69,7 @@ export default async function ContactPage({ params: { lang } }: { params: { lang
                   </Link>
                 </Button>
                 <Button asChild variant="outline" className="w-full justify-start gap-2">
-                  <Link href="https://www.instagram.com/reviv.bali?igsh=MTRncHR1cDI5aWlxbQ==">
+                  <Link href="https://www.instagram.com/reviv.bali">
                     <Instagram className="h-5 w-5"/> Instagram
                   </Link>
                 </Button>
