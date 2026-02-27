@@ -33,7 +33,7 @@ export function SiteFooter({ dictionary }: { dictionary: any }) {
               <Link href="#hero" className="text-muted-foreground hover:text-primary">
                 <Facebook className="h-5 w-5" />
               </Link>
-              <Link href="#hero" className="text-muted-foreground hover:text-primary">
+              <Link href="https://www.instagram.com/reviv.bali?igsh=MTRncHR1cDI5aWlxbQ==" className="text-muted-foreground hover:text-primary">
                 <Instagram className="h-5 w-5" />
               </Link>
               <Link href="#hero" className="text-muted-foreground hover:text-primary" onClick={() => dowa("I would like to book a NAD+ infusion.")}>
