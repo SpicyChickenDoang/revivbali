@@ -27,6 +27,13 @@ function getLocale(request: NextRequest): string | undefined {
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
 
+  // Redirects to external website
+  const banRoutes = ['http://localhost:3000', 'https://www.revivbali.com'];
+  
+  if (banRoutes.includes(request.nextUrl.origin))  {
+    return NextResponse.redirect('https://revivindonesia.com')
+  }
+
   // `/_next/` and `/api/` are ignored by the watcher, but we need to ignore files in `public`
   if (
     [

@@ -70,20 +70,24 @@
     }
   },
   "testimonials": {
-    "jessica": {
-      "quote": "Menjalankan bisnis di Bali terasa sangat membebani. Setelah beberapa sesi, saya menyadari fokus saya bertahan lebih lama dan saya tidak lagi kelelahan secara mental menjelang tengah hari. Ini membantu saya tetap jernih dan membumi.",
-      "name": "Rafi K.",
-      "title": "Wiraswasta/Pengusaha"
-    },
-    "david": {
-      "quote": "Saya memulai sesi ini karena saya menginginkan sesuatu yang membantu saya merasa lebih muda, bukan hanya terlihat lebih muda. Setelah beberapa minggu, energi saya terasa lebih stabil dan kulit saya tampak lebih segar. Ini menjadi bagian dari rutinitas penuaan yang sehat bagi saya.",
-      "name": "Clara M.",
-      "title": "Direktur Kreatif"
-    },
-    "sophia": {
-      "quote": "Kekaburan mental yang biasanya saya alami di tengah minggu menghilang. Saya merasa lebih tajam dan lebih hadir, terutama saat bekerja.",
-      "name": "Alex T.",
-      "title": "Pekerja Jarak Jauh (Remote Worker)"
+    "title": "What Our Clients Say",
+    "subtitle": "Real stories from people who've experienced the RevivBali difference.",
+    "clients": {
+      "jessica": {
+        "quote": "Menjalankan bisnis di Bali terasa sangat membebani. Setelah beberapa sesi, saya menyadari fokus saya bertahan lebih lama dan saya tidak lagi kelelahan secara mental menjelang tengah hari. Ini membantu saya tetap jernih dan membumi.",
+        "name": "Rafi K.",
+        "title": "Wiraswasta/Pengusaha"
+      },
+      "david": {
+        "quote": "Saya memulai sesi ini karena saya menginginkan sesuatu yang membantu saya merasa lebih muda, bukan hanya terlihat lebih muda. Setelah beberapa minggu, energi saya terasa lebih stabil dan kulit saya tampak lebih segar. Ini menjadi bagian dari rutinitas penuaan yang sehat bagi saya.",
+        "name": "Clara M.",
+        "title": "Direktur Kreatif"
+      },
+      "sophia": {
+        "quote": "Kekaburan mental yang biasanya saya alami di tengah minggu menghilang. Saya merasa lebih tajam dan lebih hadir, terutama saat bekerja.",
+        "name": "Alex T.",
+        "title": "Pekerja Jarak Jauh (Remote Worker)"
+      }
     }
   },
   "finalCta": {
