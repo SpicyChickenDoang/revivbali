@@ -72,7 +72,7 @@
   },
   "testimonials": {
     "title": "What Our Clients Say",
-    "subtitle": "Real stories from people who've experienced the RevivBali difference.",
+    "subtitle": "Real stories from people who've experienced the RevivIndonesia difference.",
     "clients": {
       "jessica": {
         "quote": "Running a business in Bali gets overwhelming. After a few sessions, I noticed my focus lasted longer and I wasn’t as mentally drained by midday. It helped me stay clear and grounded.",
@@ -147,7 +147,7 @@
     "legal": "Legal",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
-    "copyright": "© {year} RevivBali. All Rights Reserved."
+    "copyright": "© {year} RevivIndonesia. All Rights Reserved."
   },
   "whatsapp": "Chat on WhatsApp"
 }

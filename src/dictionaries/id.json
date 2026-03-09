@@ -71,7 +71,7 @@
   },
   "testimonials": {
     "title": "What Our Clients Say",
-    "subtitle": "Real stories from people who've experienced the RevivBali difference.",
+    "subtitle": "Real stories from people who've experienced the RevivIndonesia difference.",
     "clients": {
       "jessica": {
         "quote": "Menjalankan bisnis di Bali terasa sangat membebani. Setelah beberapa sesi, saya menyadari fokus saya bertahan lebih lama dan saya tidak lagi kelelahan secara mental menjelang tengah hari. Ini membantu saya tetap jernih dan membumi.",
@@ -146,7 +146,7 @@
     "legal": "Hukum",
     "privacyPolicy": "Kebijakan Privasi",
     "termsOfService": "Ketentuan Layanan",
-    "copyright": "© {year} RevivBali. Hak Cipta Dilindungi Undang-Undang."
+    "copyright": "© {year} RevivIndonesia. Hak Cipta Dilindungi Undang-Undang."
   },
   "whatsapp": "Obrolan di WhatsApp"
 }

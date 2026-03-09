@@ -10,8 +10,8 @@ import { Locale, i18n } from "@/i18n-config";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "RevivBali",
-  description: "RevivBali",
+  title: "RevivIndonesia",
+  description: "RevivIndonesia",
 };
 
 export default async function RootLayout({
