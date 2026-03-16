@@ -55,7 +55,7 @@ export default function TreatmentCard({ treatment, lang, softBorder, buttonToBor
               href="#"
               onClick={(e) => {
                 e.preventDefault();
-                dowa("https://chat.revivindonesia.com/wa-click", "Hello [uniquecode] revivindonesia.com! I would like to book a NAD+ infusion.");
+                dowa(treatment.message, treatment.cta);
               }}
             >
               Book Now

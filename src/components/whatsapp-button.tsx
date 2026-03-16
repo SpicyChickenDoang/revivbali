@@ -24,7 +24,7 @@ export function WhatsappButton() {
     <Button
       className="fixed bottom-6 right-6 h-16 w-16 rounded-full bg-green-500 hover:bg-green-600 shadow-lg z-50"
       size="icon"
-      onClick={() => dowa("https://chat.revivindonesia.com/wa-click", "Hello [uniquecode] revivindonesia.com! I would like to book a NAD+ infusion.")}
+      onClick={() => dowa("Hello [uniquecode] revivindonesia.com! I would like to book a NAD+ infusion.", "https://chat.revivindonesia.com/wa-click")}
     >
       <Image
         className="h-8 w-8 text-white "

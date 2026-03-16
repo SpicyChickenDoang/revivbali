@@ -127,7 +127,7 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
                 <Button asChild size="lg" className="w-full mt-6 bg-accent hover:bg-accent/90 text-lg">
                   <Link
                     href="#"
-                    onClick={() => dowa("https://chat.revivindonesia.com/wa-click", "Hello [uniquecode] revivindonesia.com! I would like to book a NAD+ infusion.")}
+                    onClick={() => dowa(treatment.message, treatment.cta)}
                   >
                     {treatmentDetailPage.bookButton}
                   </Link>
