@@ -114,7 +114,7 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
                         href="#"
                         onClick={(e) => {
                           e.preventDefault();
-                          dowa(treatment.message);
+                          dowa("https://chat.revivindonesia.com/wa-click", "Hello [uniquecode] revivindonesia.com! I would like to book a NAD+ infusion.");
                         }}
                       >
                         Book Now
