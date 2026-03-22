@@ -43,6 +43,7 @@ export const TreatmentDetail = ({
   const currentLang = params.lang as string;
 
   const moreTreatments = allTreatments.filter((p) => p.slug != currentSlug);
+  const konektorCta = "https://chat.revivindonesia.com/wa-click";
 
   return (
     <>
@@ -88,7 +89,7 @@ export const TreatmentDetail = ({
               <button
                 onClick={(e) => {
                   e.preventDefault();
-                  dowa(message);
+                  dowa(message, konektorCta);
                 }}
                 className="py-3 px-6 cta_btn flex items-center gap-2 justify-center"
               >
@@ -136,6 +137,8 @@ export const TreatmentDetail = ({
                     priceProduct={more.price}
                     slug={`${currentLang}/treatments/${more.slug}`}
                     message={more.message}
+                    lang={currentLang}
+                    konektorCta={konektorCta}
                   />
                 </SwiperSlide>
               ))}
