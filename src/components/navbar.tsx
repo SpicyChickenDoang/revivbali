@@ -9,6 +9,7 @@ import { IoClose } from "react-icons/io5";
 import SwitcherLang from "./ui/switcher-lang";
 import { BtnContact } from "./ui/btn-contact";
 import { ChevronDown } from "lucide-react";
+import { Logo } from "./logo";
 
 type Locale = "en" | "id";
 
@@ -47,10 +48,9 @@ export const Navbar = () => {
     >
       {/* Main Navbar */}
       <div className="flex items-center justify-between max-w-7xl mx-auto py-4">
-        {/* <Logo /> */}
-        <h3 className="text-primary_color text-2xl font-semibold">
-          Reviv Indonesia
-        </h3>
+        <span>
+          <Logo />
+        </span>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-6">
@@ -121,9 +121,9 @@ export const Navbar = () => {
           isOpen ? "translate-y-0" : "-translate-y-full"
         }`}
       >
-        <h3 className="absolute top-5 left-5 text-primary_color text-2xl font-semibold">
-          Reviv Indonesia
-        </h3>
+        <span className="absolute top-5 left-5">
+          <Logo />
+        </span>
         <button
           className="absolute top-5 right-5"
           onClick={() => setIsOpen(false)}

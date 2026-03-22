@@ -93,8 +93,8 @@ export default async function NadUbudPage(props: {
 
   const message =
     lang != "id"
-      ? "Hello, I'm interested in NAD+ therapy. Can you help me choose the right protocol?"
-      : "Halo, saya tertarik dengan terapi NAD+. Bisakah Anda membantu saya memilih protokol yang tepat?";
+      ? "Hello Reviv Ubud! I would like to book a NAD+ infusion."
+      : "Halo Reviv Ubud! Saya ingin memesan layanan infus NAD+.";
 
   return (
     <>

@@ -9,7 +9,7 @@ export function Logo() {
         width={0}
         height={0}
         sizes="100vw"
-        className="w-auto h-14"
+        className="w-auto h-10 sm:h-12"
       />
     </div>
   );

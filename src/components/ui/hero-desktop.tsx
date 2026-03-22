@@ -6,9 +6,12 @@ export const HeroDesktop = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.play().catch(() => {});
-    }
+    const video = videoRef.current;
+    if (!video) return;
+
+    video.muted = true; // must be set programmatically for Safari
+    video.playsInline = true; // must be set programmatically for Safari
+    video.play().catch(() => {});
   }, []);
 
   return (
@@ -18,8 +21,10 @@ export const HeroDesktop = () => {
         loop
         muted
         playsInline
+        autoPlay
         className="w-full h-full object-cover rounded-lg"
-        preload="none"
+        preload="metadata"
+        webkit-playsinline="true"
       >
         <source src="/assets/video/nad-desktop.mp4" type="video/mp4" />
       </video>

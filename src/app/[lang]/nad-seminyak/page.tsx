@@ -94,8 +94,8 @@ export default async function NadSeminyakPage(props: {
 
   const message =
     lang != "id"
-      ? "Hello, I'm interested in NAD+ therapy. Can you help me choose the right protocol?"
-      : "Halo, saya tertarik dengan terapi NAD+. Bisakah Anda membantu saya memilih protokol yang tepat?";
+      ? "Hello Reviv Seminyak! I would like to book a NAD+ infusion."
+      : "Halo Reviv Seminyak! Saya ingin memesan layanan infus NAD+.";
 
   return (
     <>

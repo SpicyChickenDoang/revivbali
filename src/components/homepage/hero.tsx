@@ -17,7 +17,7 @@ export const Hero = ({ lang, dictionary }: { lang: any; dictionary: any }) => {
     <>
       <HeroMobile />
 
-      <section className="px-4 py-10 mt-0 sm:mt-[4.5rem]">
+      <section className="px-4 py-10 mt-0 sm:mt-[5rem]">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
             <div className="flex flex-col gap-6">

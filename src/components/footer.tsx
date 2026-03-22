@@ -1,16 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { FaFacebook, FaInstagram, FaStar, FaWhatsapp } from "react-icons/fa6";
-import { SiGooglemaps } from "react-icons/si";
-import {
-  IoCloseSharp,
-  IoLocationOutline,
-  IoPaperPlaneOutline,
-  IoStar,
-} from "react-icons/io5";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa6";
 import { Logo } from "./logo";
 import { locationsFooter } from "@/lib/constant";
 import { useParams } from "next/navigation";
@@ -44,9 +36,9 @@ export const Footer = () => {
             {/* Logo */}
             <div className="flex flex-col gap-4">
               {/* <Logo /> */}
-              <h3 className="text-primary_color text-2xl font-semibold">
-                Reviv Indonesia
-              </h3>
+              <span>
+                <Logo />
+              </span>
               <p className="text-black">
                 {lang != "en"
                   ? "Reviv Indonesia menawarkan terapi infus NAD+ profesional untuk mendukung regenerasi sel, meningkatkan energi, dan menjaga kesehatan jangka panjang."
