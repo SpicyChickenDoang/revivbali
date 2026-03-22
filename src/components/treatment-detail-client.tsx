@@ -127,7 +127,7 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
                 <Button asChild size="lg" className="w-full mt-6 bg-accent hover:bg-accent/90 text-lg">
                   <Link
                     href="#"
-                    onClick={() => dowa(treatment.message)}
+                    onClick={() => dowa(treatment.message, treatment.cta)}
                   >
                     {treatmentDetailPage.bookButton}
                   </Link>

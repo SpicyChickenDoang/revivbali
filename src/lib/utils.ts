@@ -5,8 +5,8 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export const dowa = (message: string, phone: string = "6282395439534") => {
-  const waUrl = `https://wa.me/${phone}?text=Hello+revivindonesia.com! ${encodeURIComponent(message)}`;
+export const dowa = (message: string, cta: string) => {
+  const waUrl = `${cta}?text=${encodeURIComponent(message)}`;
   window.open(waUrl, "_blank");
 };
 

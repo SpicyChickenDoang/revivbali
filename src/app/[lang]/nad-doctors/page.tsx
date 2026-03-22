@@ -5,9 +5,9 @@ import Image from "next/image";
 import { Shield, CheckCircle2, Stethoscope, UserCheck } from "lucide-react";
 import { Faq } from "@/components/doctorpage/faq";
 import Link from "next/link";
-import { FaWhatsapp } from "react-icons/fa";
-import { faqPage, medicalOrganization, whatsappNumber } from "@/lib/constant";
+import { faqPage, medicalOrganization } from "@/lib/constant";
 import { InternalLink } from "@/components/doctorpage/internal-link";
+import { BookNow } from "@/components/ui/book-now";
 
 export async function generateMetadata({
   params,
@@ -133,17 +133,11 @@ export default async function TeamPage(props: {
               {dictionary.teamPage.subtitle}
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <Link
-                href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-                  message,
-                )}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-2 cta_btn flex items-center justify-center gap-2"
-              >
-                <FaWhatsapp className="size-5 text-white" />
-                <p className="text-white">{dictionary.teamPage.ctaBookNow}</p>
-              </Link>
+              <BookNow
+                lang={lang}
+                dictionary={dictionary.teamPage.ctaBookNow}
+                customClass="w-full"
+              />
               <Link
                 href={`/${lang}/treatments`}
                 className="bg-white px-6 py-2 rounded-lg border text-center text-black"
@@ -413,18 +407,11 @@ export default async function TeamPage(props: {
             <p className="text-gray-500 text-lg text-center">
               {dictionary.aiBannerDoctor.description}
             </p>
-            <Link
-              href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-                message,
-              )}`}
-              target="_blank"
-              className="px-6 py-2 cta_btn flex items-center gap-2"
-            >
-              <FaWhatsapp className="size-5 text-white" />
-              <p className="text-white">
-                {dictionary.aiBannerDoctor.ctaBookNow}
-              </p>
-            </Link>
+
+            <BookNow
+              lang={lang}
+              dictionary={dictionary.aiBannerDoctor.ctaBookNow}
+            />
           </div>
         </div>
       </section>

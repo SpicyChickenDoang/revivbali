@@ -160,7 +160,7 @@ export function DesignedForFeelings({
                         href="#"
                         onClick={(e) => {
                           e.preventDefault();
-                          dowa(treatment.message);
+                          dowa(treatment.message, treatment.cta);
                         }}
                       >
                         Book Now

@@ -28,7 +28,6 @@ export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
   // Redirects to external website
-  // const banRoutes = ['http://localhost:3000', 'https://www.revivbali.com'];
   const banRoutes = ["https://www.revivbali.com"];
 
   if (banRoutes.includes(request.nextUrl.origin)) {

@@ -18,6 +18,7 @@ export type Treatment = {
   color: string;
   border: string;
   gradient: string;
+  cta: string;
 };
 
 export const treatments: Treatment[] = [
@@ -47,25 +48,28 @@ export const treatments: Treatment[] = [
     category: "IV Therapy",
     imageId: "nad-reboot-100",
     hue: 30,
-    message: "I'd like to book NAD+ Reboot 100 treatment!",
+    message:
+      "Hello [uniquecode] revivindonesia.com! I'd like to book NAD+ Reboot 100 treatment!",
+    cta: "https://chat.revivindonesia.com/nadreboot100",
     image: "/assets/images/products/r-biru.webp",
     color: "text-blue-500",
     border: "border-blue-100",
     gradient: "from-blue-50/80",
   },
-  // {
-  //   id: 'nad-2',
-  //   slug: "nad-restore-200",
-  //   name: "NAD+ Restore 200",
-  //   price: 2990000,
-  //   shortDescription: "Daily anti-aging infusion to restore energy, clarity, and skin vitality.",
-  //   longDescription: "NAD+ Restore 200 supports collagen production, promotes radiant skin, and revitalizes cellular energy. Perfect for professionals or travelers who want to fight early signs of aging, dryness, or dullness. Regular sessions help maintain smoother skin, sharper focus, and balanced mood — keeping you vibrant through Bali’s demanding pace.",
-  //   benefits: ['Fights early signs of aging', 'Restores skin vitality', 'Sharper focus', 'Balanced mood'],
-  //   category: 'IV Therapy',
-  //   imageId: 'nad-restore-200',
-  //   hue: 270,
-  //   message: "I’d like to book NAD+ Restore 200 treatment!"
-  // },
+  /* {
+      id: 'nad-2',
+      slug: "nad-restore-200",
+      name: "NAD+ Restore 200",
+      price: 2990000,
+      shortDescription: "Daily anti-aging infusion to restore energy, clarity, and skin vitality.",
+      longDescription: "NAD+ Restore 200 supports collagen production, promotes radiant skin, and revitalizes cellular energy. Perfect for professionals or travelers who want to fight early signs of aging, dryness, or dullness. Regular sessions help maintain smoother skin, sharper focus, and balanced mood — keeping you vibrant through Bali’s demanding pace.",
+      benefits: ['Fights early signs of aging', 'Restores skin vitality', 'Sharper focus', 'Balanced mood'],
+      category: 'IV Therapy',
+      imageId: 'nad-restore-200',
+      hue: 270,
+      message: "Hello [uniquecode] revivindonesia.com! I’d like to book NAD+ Restore 200 treatment!",
+      cta: "https://chat.revivindonesia.com/nadrestore200"
+  }, */
   {
     id: "nad-3",
     slug: "nad-revive-250",
@@ -92,7 +96,9 @@ export const treatments: Treatment[] = [
     category: "IV Therapy",
     imageId: "nad-revive-250",
     hue: 170,
-    message: "I'd like to book NAD+ Revive 250 treatment!",
+    message:
+      "Hello [uniquecode] revivindonesia.com! I'd like to book NAD+ Revive 250 treatment!",
+    cta: "https://chat.revivindonesia.com/nadrevive250",
     image: "/assets/images/products/r-orange.webp",
     color: "text-orange-500",
     border: "border-orange-100",
@@ -125,7 +131,9 @@ export const treatments: Treatment[] = [
     category: "IV Therapy",
     imageId: "nad-regenerate-500",
     hue: 220,
-    message: "I'd like to book NAD+ Regenerate 500 treatment!",
+    message:
+      "Hello [uniquecode] revivindonesia.com! I'd like to book NAD+ Regenerate 500 treatment!",
+    cta: "https://chat.revivindonesia.com/nadregenerate500",
     image: "/assets/images/products/r-merah.webp",
     color: "text-red-500",
     border: "border-red-100",
@@ -157,7 +165,9 @@ export const treatments: Treatment[] = [
     category: "IV Therapy",
     imageId: "nad-elite-750",
     hue: 120,
-    message: "I'd like to book NAD+ Elite 750 treatment!",
+    message:
+      "Hello [uniquecode] revivindonesia.com! I'd like to book NAD+ Elite 750 treatment!",
+    cta: "https://chat.revivindonesia.com/nadelite750",
     image: "/assets/images/products/r-hijau.webp",
     color: "text-green-500",
     border: "border-green-100",

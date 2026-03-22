@@ -37,6 +37,7 @@ export const OurProducts = ({
                 slug={`${lang}/treatments/${treatment.slug}`}
                 message={treatment.message}
                 lang={lang}
+                konektorCta={treatment.cta}
               />
             ))}
           </div>

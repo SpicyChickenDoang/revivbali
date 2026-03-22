@@ -12,7 +12,7 @@ export const Hero = ({ lang, dictionary }: { lang: any; dictionary: any }) => {
     lang != "id"
       ? "I would like to book a NAD+ infusion."
       : "Aku ingin memesan NAD+ infusion.";
-
+  const konektorCta = "https://chat.revivindonesia.com/wa-click";
   return (
     <>
       <HeroMobile />
@@ -36,7 +36,7 @@ export const Hero = ({ lang, dictionary }: { lang: any; dictionary: any }) => {
               <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-4">
                 <Link
                   href="#"
-                  onClick={() => dowa(message)}
+                  onClick={() => dowa(message, konektorCta)}
                   className="w-full px-6 py-2 cta_btn flex items-center justify-center gap-2"
                 >
                   <FaWhatsapp className="size-5 text-white" />

@@ -19,6 +19,7 @@ type CustomProps = {
   slug: string;
   message: string;
   lang: string;
+  konektorCta: string;
 };
 
 export const CardProduct = ({
@@ -33,6 +34,7 @@ export const CardProduct = ({
   slug = "#",
   message,
   lang,
+  konektorCta,
 }: CustomProps) => {
   return (
     <div
@@ -73,7 +75,7 @@ export const CardProduct = ({
           <button
             onClick={(e) => {
               e.preventDefault();
-              dowa(message);
+              dowa(message, konektorCta);
             }}
             className="w-full px-6 py-2 cta_btn flex items-center justify-center gap-2"
           >

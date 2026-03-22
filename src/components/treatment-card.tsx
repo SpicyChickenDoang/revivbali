@@ -55,7 +55,7 @@ export default function TreatmentCard({ treatment, lang, softBorder, buttonToBor
               href="#"
               onClick={(e) => {
                 e.preventDefault();
-                dowa(treatment.message);
+                dowa(treatment.message, treatment.cta);
               }}
             >
               Book Now
