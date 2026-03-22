@@ -1,11 +1,17 @@
-"use client"
+"use client";
 
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 // import RotatingText from './rotate/RotatingText'
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { treatments as allTreatments } from "@/lib/treatments";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Locale } from "@/i18n-config";
@@ -17,8 +23,21 @@ import { Zap, Sparkles, BatteryCharging, Plane, Dna } from "lucide-react";
 
 const treatments = allTreatments;
 
-export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonToBorder, slugToColor, softBorder }: { dictionary: any, lang: Locale, slugToGradient: any, buttonToBorder: any, slugToColor: any, softBorder: any }) {
-
+export function DesignedForFeelings({
+  dictionary,
+  lang,
+  slugToGradient,
+  buttonToBorder,
+  slugToColor,
+  softBorder,
+}: {
+  dictionary: any;
+  lang: Locale;
+  slugToGradient: any;
+  buttonToBorder: any;
+  slugToColor: any;
+  softBorder: any;
+}) {
   const customCard = {
     title: dictionary.cards.custom.title,
     description: dictionary.cards.custom.description,
@@ -28,11 +47,11 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
   };
 
   const iconMap: { [key: string]: React.ElementType<LucideProps> } = {
-    'nad-reboot-100': Sparkles,
-    'nad-restore-200': BatteryCharging,
-    'nad-revive-250': Plane,
-    'nad-regenerate-500': Dna,
-    'nad-elite-750': Zap,
+    "nad-reboot-100": Sparkles,
+    "nad-restore-200": BatteryCharging,
+    "nad-revive-250": Plane,
+    "nad-regenerate-500": Dna,
+    "nad-elite-750": Zap,
   };
 
   return (
@@ -68,15 +87,25 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
         </div> */}
         <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {treatments.map((treatment) => {
-            const image = PlaceHolderImages.find((img) => img.id === treatment.imageId);
+            const image = PlaceHolderImages.find(
+              (img) => img.id === treatment.imageId,
+            );
             const Icon = iconMap[treatment.slug];
-            const iconColor = slugToColor[treatment.slug] || 'text-foreground';
-            const gradient = slugToGradient[treatment.slug] || 'from-transparent';
-            const border = buttonToBorder[treatment.slug] || 'border-input';
-            const sborder = softBorder[treatment.slug] || 'border-input';
+            const iconColor = slugToColor[treatment.slug] || "text-foreground";
+            const gradient =
+              slugToGradient[treatment.slug] || "from-transparent";
+            const border = buttonToBorder[treatment.slug] || "border-input";
+            const sborder = softBorder[treatment.slug] || "border-input";
 
             return (
-              <Card key={treatment.id} className={cn("flex flex-col text-center transition-all duration-300 h-full overflow-hidden hover:shadow-lg hover:-translate-y-1 bg-gradient-to-t", gradient, sborder)}>
+              <Card
+                key={treatment.id}
+                className={cn(
+                  "flex flex-col text-center transition-all duration-300 h-full overflow-hidden hover:shadow-lg hover:-translate-y-1 bg-gradient-to-t",
+                  gradient,
+                  sborder,
+                )}
+              >
                 <CardHeader className="p-4 flex justify-center items-center h-64">
                   <div className="relative h-full w-full">
                     {image && (
@@ -90,24 +119,41 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
                         loading="lazy"
                       />
                     )}
-                    <Icon className={cn("h-6 w-6 sm:h-12 sm:w-12 absolute sm:top-[1rem] sm:right-[6rem] top-[3rem] right-[1rem]", iconColor)} />
+                    <Icon
+                      className={cn(
+                        "h-6 w-6 sm:h-12 sm:w-12 absolute sm:top-[1rem] sm:right-[6rem] top-[3rem] right-[1rem]",
+                        iconColor,
+                      )}
+                    />
                   </div>
                 </CardHeader>
                 <CardContent className="flex-grow flex flex-col justify-center items-center p-4">
-                  <CardTitle className="font-headline text-2xl text-primary">{treatment.name}</CardTitle>
-                  <p className="mt-2 text-sm text-muted-foreground">{treatment.shortDescription}</p>
+                  <CardTitle className="font-headline text-2xl text-primary">
+                    {treatment.name}
+                  </CardTitle>
+                  <p className="mt-2 text-sm text-muted-foreground">
+                    {treatment.shortDescription}
+                  </p>
                 </CardContent>
                 <CardFooter className="flex flex-col md:flex-row md:justify-center md:items-center p-4 pt-0 gap-3 md:gap-0">
-
                   <p className="text-xl font-bold font-headline text-primary whitespace-nowrap">
                     {formatPrice(treatment.price)}
                   </p>
 
-                  <Separator orientation="vertical" className="hidden md:block mx-4 h-6" />
+                  <Separator
+                    orientation="vertical"
+                    className="hidden md:block mx-4 h-6"
+                  />
 
                   <div className="flex w-full md:w-auto gap-2 rounded-md justify-center">
-                    <Button asChild variant="outline" className={cn("flex-1 md:flex-none", sborder)}>
-                      <Link href={`/${lang}/treatments/${treatment.slug}`}>Details</Link>
+                    <Button
+                      asChild
+                      variant="outline"
+                      className={cn("flex-1 md:flex-none", sborder)}
+                    >
+                      <Link href={`/${lang}/treatments/${treatment.slug}`}>
+                        Details
+                      </Link>
                     </Button>
                     <Button asChild className="flex-1 md:flex-none rounded-md">
                       <Link
@@ -120,12 +166,10 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
                         Book Now
                       </Link>
                     </Button>
-
                   </div>
                 </CardFooter>
-
               </Card>
-            )
+            );
           })}
           {/* <Card className="flex flex-col text-center transition-all duration-300 h-full p-6 sm:p-4 hover:shadow-lg hover:-translate-y-1">
                 <CardHeader>

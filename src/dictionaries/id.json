@@ -1,6 +1,8 @@
 {
   "navigation": {
     "home": "Beranda",
+    "ourProducts": "Produk Kami",
+    "aboutUs": "Tentang Kami",
     "treatments": "Perawatan",
     "bookNow": "Pesan Sekarang",
     "contact": "Kontak",
@@ -9,18 +11,29 @@
   "hero": {
     "title": "Merasa Lebih Muda. Pulih Lebih Cepat. Nikmati Bali Sepenuhnya.",
     "subtitle": "Tetesan IV anti-penuaan dan pemulihan — diantar ke vila Anda atau di klinik kami, 24/7.",
-    "cta": "WhatsApp tim medis kami sekarang"
+    "cta": "Pesan NAD+ Infusion"
+  },
+  "about": {
+    "title": "Tentang Reviv Indonesia",
+    "description": "Reviv Indonesia adalah perusahaan bioteknologi yang menyediakan bahan bioaktif berbasis sains untuk memenuhi kebutuhan nutrisi yang belum terpenuhi, memberdayakan individu agar dapat lebih mengendalikan kesehatan mereka dan meraih kualitas hidup terbaik di setiap tahap kehidupan.",
+    "citation": "Reviv Indonesia berspesialisasi secara eksklusif dalam terapi anti-penuaan NAD+, menawarkan dosis mulai dari 100mg hingga 750mg yang diberikan oleh dokter-dokter Indonesia berlisensi di seluruh Bali.",
+    "cta": "Baca Detail"
   },
   "whyWeExist": {
     "sectionTitle": "Mengapa Kami Ada",
     "title": "Bali terlalu singkat untuk disia-siakan karena kelelahan dan penuaan.",
     "subtitle": "Kecemerlangan setelah bepergian. Kejelasan saat Anda sangat membutuhkannya. Anda yang lebih muda, menjalani Bali tanpa batas.",
     "title2": "Perawatan NAD+ Kami",
-    "subtitle2": "NAD+ memberikan energi pada setiap sel untuk memperbaiki dan memperbarui diri. Memulihkannya akan memperkuat fokus, pemulihan, dan vitalitas. Setiap infus di Reviv Bali mengisi ulang energi tubuh Anda dari dalam, mengembalikan kejernihan pikiran, daya tahan, serta rasa awet muda yang baru."
+    "subtitle2": "NAD+ memberikan energi pada setiap sel untuk memperbaiki dan memperbarui diri. Memulihkannya akan memperkuat fokus, pemulihan, dan vitalitas. Setiap infus di Reviv Indonesia mengisi ulang energi tubuh Anda dari dalam, mengembalikan kejernihan pikiran, daya tahan, serta rasa awet muda yang baru."
   },
   "designedForFeelings": {
-    "title": "Dirancang untuk Perasaan yang Anda Inginkan",
+    "label": "Pilih Protokol",
+    "title": "NAD+ Treatments",
     "bookNow": "Pesan Sekarang",
+    "details": "Detail",
+    "expects": "Apa Yang Diharapkan",
+    "price": "Harga",
+    "moreTreatments": "Perawatan Lainnya",
     "cards": {
       "glow": {
         "title": "Glow & Anti-Aging",
@@ -49,50 +62,89 @@
       }
     }
   },
+  "benefit": {
+    "title": "Manfaat Perawatan NAD+",
+    "pointOne": "Perbaikan Sel",
+    "descOne": "Mendukung proses perbaikan dan regenerasi sel secara alami.",
+    "pointTwo": "Fokus Lebih Baik",
+    "descTwo": "Meningkatkan kejernihan mental dan konsentrasi.",
+    "pointThree": "Energi Lebih Banyak",
+    "descThree": "Meningkatkan stamina dan vitalitas sehari-hari.",
+    "pointFour": "Pemulihan Lebih Cepat",
+    "descFour": "Membantu tubuh pulih dengan lebih efisien."
+  },
   "trustedCare": {
     "title": "Perawatan Terpercaya, Hasil Terbukti",
-    "subtitle": "Di balik setiap tetesan ada tim profesional medis dan pengalaman bertahun-tahun. Kami membangun Reviv Bali di atas ilmu pengetahuan, keamanan, kepercayaan, dan hasil yang berbicara sendiri.",
+    "subtitle": "Di balik setiap tetesan ada tim profesional medis dan pengalaman bertahun-tahun. Kami membangun Reviv Indonesia di atas ilmu pengetahuan, keamanan, kepercayaan, dan hasil yang berbicara sendiri.",
     "stats": {
-      "pioneering": "merintis kesehatan IV di Bali",
-      "patients": "pasien dilayani di seluruh Indonesia",
-      "doctor": "dokter berlisensi",
-      "nurses": "perawat berpengalaman siap panggil"
+      "pioneering": "Sesi NAD+ yang telah diberikan",
+      "patients": "pasien yang telah dilayani di seluruh Indonesia",
+      "doctor": "dokter berpengalaman dan terspesialisasi",
+      "nurses": "spesialis NAD+ yang berdedikasi"
     },
-    "since": "Sejak 2023"
+    "since": "5,000"
+  },
+  "whyChooseUs": {
+    "title": "Mengapa Memilih Kami",
+    "pointOne": "Dokter & perawat berlisensi siap melayani Anda",
+    "pointTwo": "Tersedia 24/7 di seluruh Bali",
+    "pointThree": "Peralatan medis yang aman dan berstandar medis",
+    "pointFour": "Perawatan di klinik atau villa pribadi"
   },
   "wellnessWherever": {
+    "label": "Cabang Klinik Kita",
     "title": "Kesehatan Anda, Di Mana Pun Anda Berada",
     "benefits": {
       "licensed": "Dokter & perawat berlisensi siap melayani Anda",
       "availability": "Ketersediaan 24/7 di seluruh Bali",
       "equipment": "Peralatan medis yang aman dan berkualitas",
       "location": "Perawatan di klinik atau vila pribadi"
-    }
+    },
+    "viewMaps": "Lihat Peta"
   },
-  "testimonials": {
-    "title": "What Our Clients Say",
-    "subtitle": "Real stories from people who've experienced the RevivBali difference.",
-    "clients": {
-      "jessica": {
-        "quote": "Menjalankan bisnis di Bali terasa sangat membebani. Setelah beberapa sesi, saya menyadari fokus saya bertahan lebih lama dan saya tidak lagi kelelahan secara mental menjelang tengah hari. Ini membantu saya tetap jernih dan membumi.",
-        "name": "Rafi K.",
-        "title": "Wiraswasta/Pengusaha"
-      },
-      "david": {
-        "quote": "Saya memulai sesi ini karena saya menginginkan sesuatu yang membantu saya merasa lebih muda, bukan hanya terlihat lebih muda. Setelah beberapa minggu, energi saya terasa lebih stabil dan kulit saya tampak lebih segar. Ini menjadi bagian dari rutinitas penuaan yang sehat bagi saya.",
-        "name": "Clara M.",
-        "title": "Direktur Kreatif"
-      },
-      "sophia": {
-        "quote": "Kekaburan mental yang biasanya saya alami di tengah minggu menghilang. Saya merasa lebih tajam dan lebih hadir, terutama saat bekerja.",
-        "name": "Alex T.",
-        "title": "Pekerja Jarak Jauh (Remote Worker)"
-      }
-    }
+  "blog": {
+    "label": "Artikel Kami",
+    "title": "Baca Artikel Kami"
+  },
+  "clinic": {
+    "title": "Explore Our Clinic Location",
+    "whatsappUs": "WhatsApp Kami",
+    "navigateUs": "Petunjuk Arah"
   },
   "finalCta": {
     "title": "Merasa Lebih Muda. Hidup Lebih Kuat. Mulai Hari Ini.",
     "cta": "WhatsApp tim medis kami sekarang"
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering Diajukan (FAQ)",
+    "description": "Jawaban jelas untuk pertanyaan yang paling sering kami terima.",
+    "question_1": "Apa itu infus NAD+?",
+    "answer_1": "Infus NAD+ adalah terapi intravena yang memberikan nicotinamide adenine dinucleotide langsung ke dalam aliran darah untuk mendukung energi sel, proses perbaikan sel, dan vitalitas tubuh secara keseluruhan.",
+    "question_2": "Apakah terapi IV NAD layak dilakukan?",
+    "answer_2": "Terapi IV NAD dapat bermanfaat bagi individu yang ingin meningkatkan energi, kejernihan mental, mendukung pemulihan tubuh, serta mendapatkan manfaat anti-penuaan, tergantung pada tujuan kesehatan dan kondisi medis masing-masing.",
+    "question_3": "Apakah terapi IV NAD+ aman?",
+    "answer_3": "Terapi IV NAD+ umumnya dianggap aman jika dilakukan oleh tenaga medis berlisensi dan di bawah pengawasan medis yang tepat.",
+    "question_4": "Apakah NAD sama dengan Ozempic?",
+    "answer_4": "Tidak, NAD+ adalah koenzim sel yang membantu produksi energi dan proses perbaikan sel, sedangkan Ozempic adalah obat resep yang digunakan untuk membantu mengontrol gula darah dan berat badan."
+  },
+  "aiBannerDoctor": {
+    "title": "Siap Memulai?",
+    "description": "Pesan sesi konsultasi NAD+ Anda dengan tim medis kami hari ini.",
+    "ctaBookNow": "Pesan NAD+ Sekarang"
+  },
+  "aiFaqDoctor": {
+    "title": "Pertanyaan yang Sering Diajukan (FAQ)",
+    "description": "Jawaban jelas untuk pertanyaan yang paling sering kami terima.",
+    "question_1": "Siapa yang mengawasi infus NAD+ di Reviv Indonesia?",
+    "answer_1": "Semua infus NAD+ di Reviv Indonesia diawasi oleh dokter Indonesia berlisensi yang memegang STR (Surat Tanda Registrasi) aktif dari Konsil Kedokteran Indonesia. Setiap dokter telah menyelesaikan pelatihan khusus dalam kedokteran regeneratif dan administrasi protokol NAD+. Skrining pasien, keputusan dosis, dan pemantauan infus dilakukan di bawah pengawasan medis langsung.",
+    "question_2": "Bagaimana cara memverifikasi STR dokter?",
+    "answer_2": "Anda dapat memverifikasi nomor STR dokter melalui registri online Konsil Kedokteran Indonesia (KKI) di kki.go.id. Masukkan nomor STR yang ditampilkan di halaman ini untuk mengkonfirmasi status registrasi aktif, spesialisasi medis, dan validitas kredensial. Semua dokter Reviv Indonesia mempertahankan registrasi STR yang berlaku.",
+    "question_3": "Pemeriksaan medis apa yang dilakukan sebelum terapi NAD+?",
+    "answer_3": "Setiap pasien menjalani penilaian medis pra-infus yang mencakup kesehatan kardiovaskular, obat-obatan saat ini, potensi kontraindikasi, status metabolik, dan tujuan perawatan. Skrining ini menentukan kelayakan untuk terapi NAD+ dan mempersonalisasi protokol — termasuk konsentrasi NAD+, durasi infus, dan kecepatan tetes. Pasien dengan kondisi tertentu mungkin memerlukan protokol yang dimodifikasi atau tidak memenuhi syarat untuk terapi NAD+.",
+    "question_4": "Area mana saja yang dilayani Reviv Indonesia untuk terapi NAD+?",
+    "answer_4": "Reviv Indonesia menyediakan terapi infus NAD+ di seluruh Bali termasuk Canggu, Seminyak, Ubud, Sanur, Nusa Dua, dan Uluwatu. Layanan berbasis klinik maupun kunjungan rumah/hotel tersedia di semua area cakupan. Dokter kami membawa peralatan medis yang lengkap dan menerapkan protokol keselamatan yang sama di setiap lokasi.",
+    "question_5": "Mengapa NAD+ memerlukan dokter spesialis?",
+    "answer_5": "NAD+ adalah intervensi metabolik, bukan infus IV biasa. Pemberian yang efektif dan aman memerlukan pemahaman tentang fungsi mitokondria, metabolisme seluler, interaksi obat, dan kontraindikasi. Dokter juga harus mengelola kecepatan infus dengan cermat — terlalu cepat dapat menyebabkan efek samping yang tidak nyaman; titrasi yang tepat memastikan kenyamanan pasien dan manfaat terapeutik. Pelatihan IV umum tidak cukup untuk protokol NAD+."
   },
   "treatmentsPage": {
     "title": "Perawatan Kami",
@@ -146,7 +198,547 @@
     "legal": "Hukum",
     "privacyPolicy": "Kebijakan Privasi",
     "termsOfService": "Ketentuan Layanan",
-    "copyright": "© {year} RevivBali. Hak Cipta Dilindungi Undang-Undang."
+    "copyright": "© {year} Reviv Indonesia. Hak Cipta Dilindungi Undang-Undang."
   },
-  "whatsapp": "Obrolan di WhatsApp"
+  "whatsapp": "Obrolan di WhatsApp",
+  "teamPage": {
+    "title": "Dokter NAD+ Berlisensi di Bali Pengawasan Medis untuk Infus Reviv Indonesia yang Aman",
+    "subtitle": "Kenali dokter Indonesia yang mengawasi protokol NAD+ kami, proses skrining pasien, keamanan infus, serta penentuan dosis yang dipersonalisasi. Lihat kredensial, spesialisasi, dan cara memulai konsultasi Anda.",
+    "introHeading": "Protokol NAD+ Reviv Indonesia dikembangkan dan diberikan oleh profesional medis Indonesia berlisensi dengan pelatihan khusus dalam pengobatan regeneratif dan terapi anti-penuaan.",
+    "introParagraph": "Semua praktisi memiliki kredensial STR (Surat Tanda Registrasi) yang valid dari Dewan Kedokteran Indonesia. Kami mengutamakan keamanan, dosis yang tepat, dan protokol berbasis bukti.",
+    "description": "Temui Dokter NAD+ Anda",
+    "ctaBookNow": "Pesan NAD+ Sekarang",
+    "ctaViewNad": "Lihat NAD+ Terapi",
+    "ctaMeet": "Bertemu Tim Medis",
+    "trustBar": {
+      "pointOne": "5,000+",
+      "labelOne": "NAD+ infusion sessions delivered by Reviv Indonesia medical network",
+      "pointTwo": "5",
+      "labelTwo": "Licensed physicians with STR credentials",
+      "pointThree": "6",
+      "labelThree": "Coverage areas across Bali",
+      "pointFour": "100%",
+      "labelFour": "Pre-infusion medical screening"
+    },
+    "nadExpertise": {
+      "title": "Mengapa Terapi NAD+ Memerlukan Dokter Spesialis",
+      "subtitle": "Terapi infus NAD+ bukanlah infus IV biasa. Prosedur ini memerlukan dokter yang terlatih dalam metabolisme sel, skrining kontraindikasi, serta pengelolaan kecepatan infus.",
+      "title1": "Fungsi Mitokondria",
+      "point1": "Memahami bagaimana NAD+ mendukung produksi ATP, perbaikan sel, serta jalur metabolisme yang menentukan respons terapeutik.",
+      "title2": "Dosis yang Dipersonalisasi",
+      "point2": "Menyesuaikan konsentrasi NAD+ dan durasi infus berdasarkan berat badan pasien, usia, kondisi metabolisme, serta tujuan terapi.",
+      "title3": "Pengelolaan Kecepatan Infus",
+      "point3": "Mengontrol kecepatan infus untuk meminimalkan efek samping yang umum terjadi seperti rasa sesak di dada, flushing, dan mual selama protokol dosis tinggi.",
+      "title4": "Skrining Kontraindikasi",
+      "point4": "Mengidentifikasi pasien dengan kondisi kardiovaskular, interaksi obat, atau gangguan metabolisme yang memerlukan penyesuaian protokol atau tidak dianjurkan menjalani terapi.",
+      "experience": "Tim medis kami telah menyelesaikan pelatihan dalam protokol kedokteran regeneratif dan telah melakukan lebih dari 5.000 sesi terapi NAD+."
+    },
+    "safetyStandards": {
+      "title": "Standar Keamanan Kami",
+      "point1": {
+        "title": "Praktisi Berlisensi",
+        "description": "Semua staf medis memiliki kredensial STR yang valid"
+      },
+      "point2": {
+        "title": "NAD+ Bersertifikat",
+        "description": "Kami hanya menggunakan senyawa NAD+ bersertifikat"
+      },
+      "point3": {
+        "title": "Penyimpanan yang Tepat",
+        "description": "NAD+ memerlukan refrigerasi — kami menjaga integritas cold chain"
+      },
+      "point4": {
+        "title": "Penilaian Individu",
+        "description": "Setiap pasien dinilai sebelum perawatan"
+      },
+      "point5": {
+        "title": "Protokol Darurat",
+        "description": "Staf terlatih dalam mengelola reaksi merugikan"
+      }
+    },
+    "doctors": [
+    {
+      "name": "dr. Cahyadi Surya, MPH",
+      "specialty": "Dokter Penanggung Jawab NAD+ — Penyakit Dalam, Anti-Aging",
+      "strNumber": "STR.3111100220155405",
+      "specialization": "Penyakit Dalam, Kedokteran Anti-Aging",
+      "education": "Universitas Gadjah Mada",
+      "bio": "Dengan pengalaman lebih dari 10 tahun di bidang penyakit dalam serta pelatihan khusus dalam terapi regeneratif, dr. Cahyadi telah menangani lebih dari 2.000 sesi infus NAD+ dengan hasil pasien yang sangat baik.",
+      "imageId": "doc1",
+      "languages": "Indonesia, Inggris",
+      "quote": "Setiap pasien merespons NAD+ secara berbeda. Penyesuaian dosis yang tepat dan pemantauan yang cermat membuat perbedaan antara hasil yang baik dan pengalaman yang tidak nyaman.",
+      "alt": "dr. Cahyadi Surya, MPH — Dokter Penanggung Jawab NAD+ di Reviv Indonesia"
+    },
+    {
+      "name": "dr. Yahya Albar",
+      "specialty": "Spesialis Protokol NAD+ — Penyakit Dalam, Anti-Aging",
+      "strNumber": "STR.9811809221170965",
+      "specialization": "Penyakit Dalam, Kedokteran Anti-Aging",
+      "education": "Universitas Yarsi",
+      "bio": "Berfokus pada pendekatan kedokteran integratif dengan menggabungkan praktik penyakit dalam konvensional dan terapi NAD+ modern untuk mengoptimalkan kesehatan serta umur panjang pasien.",
+      "imageId": "doc2",
+      "languages": "Indonesia, Inggris",
+      "quote": "Setiap pasien merespons NAD+ secara berbeda. Penyesuaian dosis yang tepat dan pemantauan yang cermat membuat perbedaan antara hasil yang baik dan pengalaman yang tidak nyaman.",
+      "alt": "dr. Yahya Albar — Spesialis Protokol NAD+ di Reviv Indonesia"
+    },
+    {
+      "name": "dr. Ni Wayan Mega Rajuni",
+      "specialty": "Spesialis Protokol NAD+ — Penyakit Dalam, Anti-Aging",
+      "strNumber": "STR.JI00000727635027",
+      "specialization": "Penyakit Dalam, Kedokteran Anti-Aging",
+      "education": "Universitas Warmadewa",
+      "bio": "dr. Mega memiliki keahlian dalam kesehatan metabolik dan regenerasi sel, dengan fokus pada protokol NAD+ yang dipersonalisasi sesuai kebutuhan fisiologis setiap pasien.",
+      "imageId": "doc3",
+      "languages": "Indonesia, Inggris, Bali",
+      "quote": "Memahami kondisi kesehatan dasar dan tujuan setiap pasien memungkinkan kami merancang protokol NAD+ yang memberikan hasil yang terukur.",
+      "alt": "dr. Ni Wayan Mega Rajuni — Spesialis Protokol NAD+ di Reviv Indonesia"
+    },
+    {
+      "name": "dr Lorenzo Alexander Pradhana",
+      "specialty": "Spesialis Protokol NAD+ — Penyakit Dalam, Anti-Aging",
+      "strNumber": "STR.ON0001265548090",
+      "specialization": "Penyakit Dalam, Kedokteran Anti-Aging",
+      "education": "Nanjing Medical University",
+      "bio": "Dengan fokus pada pengobatan preventif dan ilmu longevity, dr. Lorenzo mengembangkan protokol yang membantu pasien menjaga fungsi sel tetap optimal melalui terapi NAD+.",
+      "imageId": "doc4",
+      "languages": "Indonesia, Inggris, Mandarin",
+      "quote": "Pelatihan medis internasional mengajarkan saya bahwa protokol harus disesuaikan dengan setiap pasien — bukan diterapkan secara sama untuk semua orang.",
+      "alt": "dr. Lorenzo Alexander Pradhana — Spesialis Protokol NAD+ di Reviv Indonesia"
+    },
+    {
+      "name": "dr. Anak Agung Gede Wahyu Prabawa",
+      "specialty": "Dokter NAD+ Kunjungan Rumah — Penyakit Dalam, Anti-Aging",
+      "strNumber": "STR.WK00000297681330",
+      "specialization": "Penyakit Dalam, Kedokteran Anti-Aging",
+      "education": "Universitas Kristen Duta Wacana Yogyakarta",
+      "bio": "Dengan keahlian dalam pengobatan preventif dan ilmu longevity, dr. Agung mengembangkan protokol terapi NAD+ yang bertujuan menjaga performa sel tubuh tetap sehat dan optimal.",
+      "imageId": "doc5",
+      "languages": "Indonesia, Inggris, Bali",
+      "quote": "Terapi NAD+ dengan kunjungan rumah tetap memerlukan standar medis yang sama ketatnya seperti di klinik — termasuk penilaian pasien, peralatan, dan protokol pemantauan yang tepat.",
+      "alt": "dr. Anak Agung Gede Wahyu Prabawa — Dokter NAD+ Kunjungan Rumah di Reviv Indonesia"
+    }
+  ],
+    "verifyCredentials": "Verifikasi kredensial di Konsil Kedokteran Indonesia",
+    "aiInternalLinks": {
+      "title": "Jelajahi Terapi NAD+ di Reviv Indonesia",
+      "link1_title": "Tentang Terapi NAD+",
+      "link1_desc": "Cara kerja NAD+, protokol, dan hasil yang diharapkan.",
+      "link2_title": "NAD+ di Canggu",
+      "link2_desc": "Layanan kunjungan rumah dan klinik di area Canggu.",
+      "link3_title": "NAD+ di Seminyak",
+      "link3_desc": "Cakupan dan pemesanan untuk area Seminyak.",
+      "link4_title": "NAD+ di Ubud",
+      "link5_title": "FAQ Lengkap",
+      "link5_desc": "Jawaban lengkap tentang terapi NAD+ dan proses pemesanan."
+    }
+  },
+  "whatIsNadPage": {
+    "title": "Apa itu Terapi NAD+? Panduan Lengkap Molecule Anti-Penuaan",
+    "medicallyReviewed": "Ditinjau secara medis oleh dr. Sarah Wijaya, Sp.PD",
+    "lastUpdated": "Terakhir diperbarui: Maret 2025",
+    "introHeading": "NAD+ telah menjadi salah satu molekul yang paling banyak dibicarakan dalam ilmu longevity.",
+    "introSubheading": "Peneliti Harvard menyebutnya yang paling dekat dengan air mancur masa muda.",
+    "introDescription": "Panduan ini menjelaskan apa itu NAD+, bagaimana cara kerjanya di dalam tubuh Anda, mengapa kadar menurun seiring bertambahnya usia, dan apa kata penelitian tentang terapi IV NAD+ untuk anti-penuaan, energi, dan fungsi kognitif.",
+    "longDescription": "Terapi infus NAD+ (NAD+ IV drip) merupakan metode pemberian nicotinamide adenine dinucleotide (NAD+) langsung ke dalam aliran darah melalui infus intravena (IV). NAD+ adalah koenzim yang terdapat di setiap sel tubuh dan berperan penting dalam berbagai proses biologis, termasuk produksi energi, perbaikan DNA, serta regenerasi sel.",
+    "endDescription": "Dengan pemberian NAD+ langsung ke dalam aliran darah, tubuh dapat memanfaatkannya dengan lebih cepat karena tidak perlu melalui sistem pencernaan, sehingga penyerapan menjadi lebih cepat dan efisien.",
+    "whatIsNad": {
+      "title": "Apa itu NAD+?",
+      "subtitle": "NAD+ (nicotinamide adenine dinucleotide) adalah koenzim yang ditemukan di setiap sel hidup. Ini penting untuk:",
+      "point1": {
+        "title": "Produksi energi",
+        "description": "NAD+ diperlukan untuk mitokondria mengubah makanan menjadi ATP, mata uang energi sel"
+      },
+      "point2": {
+        "title": "Perbaikan DNA",
+        "description": "NAD+ mengaktifkan enzim (PARPs) yang memperbaiki DNA yang rusak"
+      },
+      "point3": {
+        "title": "Signaling seluler",
+        "description": "NAD+ mengatur sirtuins, \"gen longevity\" yang mengontrol penuaan"
+      },
+      "point4": "Lebih dari 500 reaksi enzimatik di seluruh tubuh",
+      "withoutNad": "Tanpa NAD+, Anda akan meninggal dalam hitungan detik. Dengan penurunan NAD+, Anda menua lebih cepat."
+    },
+    "nadDecline": {
+      "title": "Mengapa NAD+ Menurun seiring Usia",
+      "subtitle": "Kadar NAD+ secara alami menurun seiring bertambahnya usia:",
+      "stat1": {
+        "age": "Pada usia 40 tahun",
+        "description": "Kadar NAD+ telah turun sekitar 50% dari puncaknya"
+      },
+      "stat2": {
+        "age": "Pada usia 60 tahun",
+        "description": "Kadar mungkin 80% lebih rendah daripada usia 20-an"
+      },
+      "lifestyleFactors": "Faktor gaya hidup mempercepat penurunan: kurang tidur, alkohol, stres, makan berlebihan",
+      "associatedWith": "Penurunan ini terkait dengan banyak tanda penuaan:",
+      "effect1": "Penurunan energi dan stamina",
+      "effect2": "Penurunan kognitif dan kabut otak",
+      "effect3": "Pemulihan lebih lambat dari olahraga atau penyakit",
+      "effect4": "Penuaan kulit yang terlihat",
+      "effect5": "Peningkatan peradangan"
+    },
+    "ivVsSupplements": {
+      "title": "Terapi IV NAD+ vs Suplemen",
+      "subtitle": "Ada beberapa cara untuk meningkatkan kadar NAD+:",
+      "supplements": {
+        "title": "Suplemen Prekursor NAD+ (NMN, NR)",
+        "point1": "Suplemen oral yang tubuh Anda konversi menjadi NAD+",
+        "point2": "Mudah dan relatif terjangkau",
+        "point3": "Bioavailability terbatas oleh pencernaan (perkiraan bervariasi: 5-30%)",
+        "point4": "Hasil memakan waktu minggu hingga bulan"
+      },
+      "ivTherapy": {
+        "title": "Terapi IV NAD+",
+        "point1": "NAD+ murni langsung ke dalam aliran darah",
+        "point2": "Bioavailability hampir 100%",
+        "point3": "Efek sering terasa hari yang sama atau dalam beberapa hari",
+        "point4": "Biaya lebih tinggi per sesi",
+        "point5": "Memerlukan administrasi medis"
+      },
+      "perspective": "Perspektif Reviv Indonesia: Terapi IV memberikan lebih banyak NAD+ langsung ke sel. Banyak klien menggunakan terapi IV untuk fase \"loading\" awal, kemudian mempertahankan dengan suplemen antara sesi."
+    },
+    "research": {
+      "title": "Apa Kata Penelitian?",
+      "subtitle": "Penelitian NAD+ menjanjikan tetapi masih berkembang:",
+      "animalStudies": {
+        "title": "Studi pada hewan menunjukkan:",
+        "point1": "Peningkatan lifespan pada tikus (Sinclair et al., Harvard)",
+        "point2": "Peningkatan fungsi metabolik",
+        "point3": "Peningkatan fungsi kognitif pada tikus tua",
+        "point4": "Pembalikan marker penuaan seluler"
+      },
+      "humanStudies": {
+        "title": "Studi pada manusia menunjukkan:",
+        "point1": "Prekursor NAD+ dengan aman meningkatkan kadar NAD+",
+        "point2": "Beberapa studi menunjukkan peningkatan sensitivitas insulin",
+        "point3": "Uji klinis ongoing untuk Parkinson, Alzheimer, fungsi jantung",
+        "point4": "Efek longevity jangka panjang belum terbukti pada manusia"
+      },
+      "disclaimer": "Penting: Terapi NAD+ tidak disetujui FDA untuk penyakit apa pun. Penelitian menjanjikan tetapi tidak definitif. Kami membagikan sains secara transparan."
+    },
+    "whatToExpect": {
+      "title": "Apa yang Diharapkan Selama Terapi IV NAD+",
+      "beforeTreatment": {
+        "title": "Sebelum perawatan:",
+        "point1": "Makan ringan 1-2 jam sebelumnya (jangan puasa)",
+        "point2": "Tetap terhidrasi",
+        "point3": "Rencanakan 1-5 jam tergantung dosis"
+      },
+      "duringTreatment": {
+        "title": "Selama perawatan:",
+        "point1": "IV diberikan perlahan untuk meminimalkan efek samping",
+        "point2": "Anda mungkin merasakan kehangatan, ketegangan dada, atau mual ringan (normal)",
+        "point3": "Sensasi ini biasanya berlalu jika drip diperlambat",
+        "point4": "Anda bisa membaca, bekerja, atau beristirahat selama perawatan"
+      },
+      "afterTreatment": {
+        "title": "Setelah perawatan:",
+        "point1": "Banyak orang merasa berenergi atau jernih",
+        "point2": "Beberapa merasa lelah awalnya (tubuh sedang memproses)",
+        "point3": "Efek sering membangun selama 24-48 jam",
+        "point4": "Hasil optimal dari serangkaian perawatan"
+      }
+    },
+    "dosing": {
+      "title": "Dosis NAD+: Berapa yang Anda Butuhkan?",
+      "subtitle": "Reviv Indonesia menawarkan empat level dosis:",
+      "tableHeaders": {
+        "product": "PRODUK",
+        "dose": "DOSIS",
+        "duration": "DURASI",
+        "bestFor": "TERBAIK UNTUK"
+      },
+      "products": {
+        "reboot": {
+          "name": "NAD+ Reboot",
+          "dose": "100mg",
+          "duration": "1-1.5j",
+          "bestFor": "Pemula, peningkatan energi"
+        },
+        "revive": {
+          "name": "NAD+ Revive",
+          "dose": "250mg",
+          "duration": "2-2.5j",
+          "bestFor": "Pemeliharaan rutin"
+        },
+        "regenerate": {
+          "name": "NAD+ Regenerate",
+          "dose": "500mg",
+          "duration": "3-3.5j",
+          "bestFor": "Rejuvenasi intensif"
+        },
+        "elite": {
+          "name": "NAD+ Elite",
+          "dose": "750mg",
+          "duration": "4-5j",
+          "bestFor": "Protokol maksimal"
+        }
+      },
+      "recommendation": "Kami sarankan memulai dengan 100mg atau 250mg untuk menilai respons Anda sebelum beralih ke dosis lebih tinggi."
+    },
+    "rightForYou": {
+      "title": "Apakah Terapi NAD+ Cocok untuk Anda?",
+      "goodCandidates": {
+        "title": "Kandidat baik:",
+        "point1": "Usia 35+ yang tertarik pada longevity",
+        "point2": "Orang yang mengalami energi rendah, kabut otak, pemulihan lambat",
+        "point3": "Biohackers dan pengoptimal kesehatan",
+        "point4": "Mereka yang pulih dari penyakit atau stres intensif"
+      },
+      "notRecommended": {
+        "title": "Tidak direkomendasikan untuk:",
+        "point1": "Wanita hamil atau menyusui",
+        "point2": "Orang dengan kanker tertentu (konsultasikan dengan ahli onkologi Anda)",
+        "point3": "Mereka dengan kondisi jantung parah (konsultasikan dengan kardiologis)"
+      },
+      "consult": "Jika ragu, konsultasikan dengan tim medis kami sebelum memesan."
+    },
+    "cta": {
+      "title": "Siap mencoba terapi NAD+?",
+      "description": "Tim medis kami dapat membantu Anda memilih dosis dan protokol yang tepat.",
+      "button": "WhatsApp tim medis kami sekarang"
+    }
+   
+  },
+   "nadCanggu": {
+    "title": "Terapi NAD+ di Canggu — Reviv Indonesia Anti-Aging",
+    "description": "Subheadline: Regenerasi sel yang diberikan langsung ke villa Anda. Pilihan para biohacker untuk performa puncak.",
+    "introOne": "Canggu telah menjadi pusat global bagi digital nomad, entrepreneur, dan biohacker yang serius dalam mengoptimalkan kesehatan mereka. Karena itu, Reviv Indonesia menghadirkan terapi NAD+ berkualitas klinis langsung ke villa, co-living space, atau hotel Anda.",
+    "introTwo": "NAD+ (nicotinamide adenine dinucleotide) adalah molekul energi seluler yang menurun seiring bertambahnya usia. Memulihkannya melalui terapi IV membantu meningkatkan kejernihan mental, produksi energi, dan perbaikan sel — tepat untuk membantu Anda tetap dalam performa terbaik saat membangun gaya hidup location-independent di Bali.",
+    "whyCanggu": "Mengapa Profesional di Canggu Memilih Terapi NAD+ IV",
+    "point1": "Peningkatan Kognitif",
+    "desc1": "NAD+ mendukung fungsi mitokondria pada neuron, sehingga meningkatkan fokus dan performa kognitif. Klien klinis melaporkan peningkatan yang terukur pada kejernihan mental dan produktivitas dalam waktu 24-48 jam setelah perawatan.",
+    "point2": "Produksi Energi Seluler",
+    "desc2": "Berbeda dengan stimulan, NAD+ bekerja pada tingkat mitokondria untuk mendukung sintesis ATP — sumber energi utama tubuh. Hasilnya adalah energi yang lebih stabil tanpa ketergantungan atau efek penurunan energi.",
+    "point3": "Perbaikan DNA & Umur Panjang",
+    "desc3": "NAD+ mengaktifkan protein sirtuin yang bertanggung jawab dalam perbaikan DNA dan sinyal umur panjang seluler. Terapi IV secara langsung memulihkan kadar NAD+ yang menurun akibat perjalanan, pola tidur yang tidak teratur, dan stres metabolik.",
+    "point4": "Pemberian Perawatan di Lokasi",
+    "desc4": "Tim medis kami datang langsung ke villa atau hotel Anda. Perawatan diberikan selama 1-5 jam tergantung pada dosis, selama itu pasien dapat tetap bekerja, membaca, atau beristirahat.",
+    "availableCanggu": "Perawatan NAD+ yang Tersedia di Canggu",
+    "cangguTestimonial": "Pengalaman Pasien di Canggu",
+    "cangguCoverage": "Area Layanan Canggu",
+    "coverageDesc": "Tim medis kami melayani seluruh area Canggu. Waktu respons biasanya sekitar 30-60 menit tergantung lokasi.",
+    "scheduleTitle": "Jadwalkan Konsultasi NAD+ Anda",
+    "scheduleDesc": "Janji temu di hari yang sama tersedia tergantung ketersediaan. Penilaian klinis singkat akan dilakukan sebelum perawatan pertama untuk menentukan protokol dosis yang sesuai serta memastikan tidak ada kontraindikasi.",
+    "cta": "Hubungi tim medis kami melalui WhatsApp sekarang"
+  },
+  "nadSeminyak": {
+    "title": "Terapi NAD+ di Seminyak — Reviv Indonesia Anti-Aging",
+    "description": "Diberikan langsung ke villa atau hotel Anda di Seminyak. Dosis 100mg-750mg. Pulih lebih cepat, menua lebih lambat — tanpa memperlambat gaya hidup Anda.",
+    "introOne": "Gaya hidup di Seminyak sangat intens — beach club di siang hari, fine dining di malam hari, lalu diulang kembali. Terapi NAD+ membantu Anda pulih lebih cepat dan memperlambat proses penuaan, sehingga Anda dapat menikmati yang terbaik dari Seminyak tanpa membebani kesehatan sel Anda.",
+    "introTwo": "Lebih dari sekadar pemulihan hangover (yang juga kami sediakan di IVDrip Bali), NAD+ bekerja pada tingkat yang lebih dalam. Ini bukan hanya tentang merasa lebih baik besok — tetapi juga tentang melindungi sel Anda dari efek kumulatif gaya hidup tersebut.",
+    "whySeminyak": "Mengapa Tamu di Seminyak Memilih Terapi NAD+ IV",
+    "point1": "Pemulihan Lebih Cepat",
+    "desc1": "Gaya hidup sosial di Seminyak — beach club, makan malam larut, dan nightlife — dapat menciptakan stres oksidatif yang menumpuk. Terapi NAD+ IV membantu mengisi kembali cadangan energi seluler pada tingkat mitokondria, sehingga pemulihan menjadi lebih cepat dibandingkan hanya dengan istirahat.",
+    "point2": "Anti-Aging pada Tingkat Sel",
+    "desc2": "Paparan sinar UV, alkohol, dan stres gaya hidup mempercepat penurunan NAD+ — molekul yang sama yang berperan dalam perbaikan DNA dan sinyal umur panjang. Terapi IV secara berkala merupakan investasi proaktif untuk kesehatan sel Anda di masa depan, bukan hanya untuk membuat Anda merasa lebih baik besok.",
+    "point3": "Peremajaan Kulit & Sistem Tubuh",
+    "desc3": "Pasien melaporkan peningkatan kualitas kulit, stabilitas energi, dan kualitas tidur setelah menjalani rangkaian terapi NAD+. Aktivasi sirtuin — yang memerlukan NAD+ — mengatur jalur perbaikan sel yang secara nyata memengaruhi kesehatan kulit dan vitalitas tubuh.",
+    "point4": "Perawatan Langsung di Lokasi",
+    "desc4": "Tim medis kami datang langsung ke villa, boutique hotel, atau tempat tinggal Anda di Seminyak. Perawatan berlangsung selama 1-5 jam tergantung dosis — tanpa perlu datang ke klinik. Janji temu di hari yang sama tersedia tergantung ketersediaan.",
+    "availableCanggu": "Perawatan NAD+ yang Tersedia di Canggu",
+    "seminyakTestimonial": "Pengalaman Pasien di Seminyak",
+    "seminyakCoverage": "Area Layanan Seminyak",
+    "coverageDesc": "Tim medis kami melayani seluruh area Seminyak. Waktu respons biasanya sekitar 20-45 menit tergantung lokasi.",
+    "scheduleTitle": "Jadwalkan Konsultasi NAD+ Anda",
+    "scheduleDesc": "Janji temu di hari yang sama tersedia tergantung ketersediaan. Penilaian klinis singkat akan dilakukan sebelum perawatan pertama untuk menentukan protokol dosis yang sesuai dan memastikan tidak ada kontraindikasi. NAD+ adalah investasi untuk umur panjang — bukan sekadar infus untuk hangover.",
+    "cta": "Hubungi tim medis kami melalui WhatsApp sekarang"
+  },
+  "nadUbud": {
+    "title": "Terapi NAD+ di Ubud — Reviv Indonesia Anti-Aging",
+    "description": "Terapi NAD+ intravena berstandar medis oleh dokter Indonesia berlisensi, diberikan langsung ke villa atau pusat retreat Anda di Ubud.",
+    "introOne": "Ubud adalah tempat di mana banyak orang datang untuk bertransformasi. Baik Anda berada di sini untuk pelatihan guru yoga, retreat meditasi hening, atau perjalanan penyembuhan pribadi, terapi NAD+ dapat mendukung transformasi Anda pada tingkat sel.",
+    "introTwo": "Sementara breathwork dan meditasi bekerja pada pikiran dan jiwa Anda, NAD+ bekerja pada mitokondria — pusat energi di setiap sel. Kesehatan yang sesungguhnya adalah keduanya: kejernihan pikiran DAN vitalitas seluler.",
+    "whyUbud": "Mengapa Peserta Retreat di Ubud Memilih Terapi NAD+ IV",
+    "point1": "Mendukung Program Retreat yang Intens",
+    "desc1": "Program yoga intensif, protokol puasa, dan retreat detoks dapat memberikan tekanan besar pada tubuh. Terapi NAD+ IV membantu mendukung perbaikan sel selama program yang menuntut ini, membantu mitokondria beregenerasi sehingga Anda keluar dari program dengan lebih kuat, bukan kelelahan.",
+    "point2": "Kejernihan untuk Proses Batin",
+    "desc2": "Meditasi dan refleksi diri membutuhkan kehadiran mental yang stabil. Dengan mendukung fungsi mitokondria pada neuron, NAD+ dapat meningkatkan kejernihan mental dan fokus dalam praktik Anda — mengurangi kabut mental yang dapat mengganggu proses batin yang mendalam.",
+    "point3": "Transformasi pada Tingkat Sel",
+    "desc3": "Transformasi holistik yang sejati terjadi baik secara internal maupun pada tingkat sel. NAD+ mengaktifkan protein sirtuin yang bertanggung jawab atas perbaikan DNA dan sinyal umur panjang — mendukung fondasi fisik dari setiap proses transformasi yang lebih dalam.",
+    "point4": "Layanan yang Ramah untuk Retreat",
+    "desc4": "Tim medis kami datang langsung ke villa, pusat retreat, atau akomodasi Anda di Ubud. Perawatan berlangsung selama 1-5 jam dan dapat dijadwalkan menyesuaikan program Anda sehingga Anda tidak perlu melewatkan sesi retreat. Disarankan melakukan pemesanan 2-3 jam sebelumnya.",
+    "availableSeminyak": "Perawatan NAD+ yang Tersedia di Ubud",
+    "ubudTestimonial": "Pengalaman Pasien di Ubud",
+    "ubudCoverage": "Area Layanan Ubud",
+    "coverageDesc": "Tim medis kami melayani area Ubud dan sekitarnya. Karena jalan di Ubud berkelok-kelok, waktu respons biasanya sekitar 45-75 menit. Kami menyarankan pemesanan setidaknya 2-3 jam sebelumnya untuk memastikan ketersediaan.",
+    "scheduleTitle": "Jadwalkan Konsultasi NAD+ Anda",
+    "scheduleDesc": "Disarankan melakukan pemesanan terlebih dahulu — jalan di Ubud yang berkelok memerlukan waktu 45-75 menit bagi tim medis kami untuk tiba. Mohon lakukan pemesanan minimal 2-3 jam sebelumnya. Penilaian klinis singkat akan dilakukan sebelum perawatan pertama untuk menentukan protokol dosis yang sesuai.",
+    "cta": "Hubungi tim medis kami melalui WhatsApp sekarang"
+  },
+  "aiHero": {
+    "badgeSameDay": "Tersedia Hari Ini",
+    "badgeSpecialist": "Spesialis NAD+ Bali",
+    "title": "Terapi Anti-Penuaan NAD+ di Bali — Layanan Villa di Hari yang Sama",
+    "description": "Perlambat penuaan sel. Pulihkan energi mitokondria. Berpikir lebih jernih, pulih lebih cepat — dengan terapi NAD+ IV berstandar klinis yang diberikan oleh dokter Indonesia berlisensi STR, langsung di villa Anda di Bali, hari ini.",
+    "ctaBookNow": "Pesan Sekarang",
+    "ctaDetails": "Lihat NAD+ Terapi",
+    "availability": "Tanpa antrian 24-48 jam · Tersedia 24/7 · Canggu · Seminyak · Ubud · Sanur · Nusa Dua",
+    "ourTeam": "Bertemu Tim Medis"
+  },
+  "aiMark": {
+    "sessionsValue": "5,000+",
+    "nad": "Sesi NAD+ Telah Diberikan",
+    "licensed": "Berlisensi STR",
+    "label": "Konsil Kedokteran Indonesia (KKI)",
+    "availability": "24/7",
+    "villaService": "Layanan Villa · Pemesanan Hari yang Sama",
+    "cepatSehat": "Cepat Sehat Group",
+    "since": "Jaringan 50.000+ pasien sejak 2019"
+  },
+  "aiWhyReviv": {
+    "label": "Keunggulan Kompetitif",
+    "title": "Mengapa Memilih Reviv Indonesia untuk NAD+",
+    "benefitOne": {
+      "point": "Hari yang Sama - 24/7",
+      "desc": "Tidak perlu menunggu 24-48 jam. Hubungi kami di pagi hari, dan Anda bisa menerima terapi NAD+ pada sore hari.",
+      "reason": "Khawatir jadwal Anda terganggu karena urusan logistik? Kami memiliki kapasitas layanan di hari yang sama setiap hari dalam seminggu."
+    },
+    "benefitTwo": {
+      "point": "NAD+ Tanpa Istilah Rumit",
+      "desc": "Kami menjelaskan fungsi NAD+ dengan bahasa yang mudah dipahami. Tanpa istilah yang membingungkan. Anda berhak mengetahui dengan jelas apa yang masuk ke dalam tubuh Anda.",
+      "reason": "Tidak yakin dosis mana yang harus dipilih? Dokter kami akan membantu menjelaskannya saat sesi penilaian sebelum terapi tanpa biaya tambahan."
+    },
+    "benefitThree": {
+      "point": "Dari Pemula hingga Tingkat Lanjut",
+      "desc": "Mulai dari Rp 2,39 juta (100mg) hingga Rp 4,39 juta (750mg). Mulai dari dosis kecil dan tingkatkan sesuai respons tubuh Anda.",
+      "reason": "Belum yakin apakah tubuh Anda akan merespons NAD+ dengan baik? Paket Reboot 100mg dirancang khusus untuk itu — untuk mencoba terlebih dahulu."
+    },
+    "benefitFour": {
+      "point": "Di Villa Anda, Bukan di Klinik Kami",
+      "desc": "Kami datang ke lokasi Anda — Canggu, Seminyak, Ubud, Sanur, hingga Nusa Dua. Anda bisa bekerja, beristirahat, atau membaca selama proses infus.",
+      "reason": "Khawatir tentang standar kebersihan medis di luar rumah sakit? Dokter kami membawa peralatan infus steril sekali pakai. Senyawa NAD+ disimpan dengan sistem cold-chain dan diverifikasi saat tiba."
+    },
+    "benefitFive": {
+      "point": "Jaringan Cepat Sehat Group",
+      "desc": "Bagian dari jaringan layanan homecare medis berlisensi terbesar di Indonesia. Lebih dari 5.000 sesi NAD+ telah dilakukan.",
+      "reason": "Ingin mengetahui rekam jejak kami? Reviv Indonesia diluncurkan pada tahun 2023 di bawah Cepat Sehat Group — yang telah menjalankan layanan IV therapy homecare di seluruh Indonesia sejak 2019."
+    }
+  },
+  "aiBanner": {
+    "readyFeel": "Siap merasakan perbedaannya?",
+    "mostClients": "Sebagian besar klien melakukan pemesanan dalam 24 jam setelah membaca halaman ini.",
+    "ctaBookNow": "Pesan Sekarang",
+    "sameDay": "Tersedia di hari yang sama · Layanan ke villa · Tanpa kewajiban saat bertanya"
+  },
+  "aiAboutNad": {
+    "label": "Ilmu Pengetahuan",
+    "title": "Tentang NAD+ Terapi",
+    "description": "NAD+ (nicotinamide adenine dinucleotide) adalah koenzim yang terdapat di setiap sel hidup dan berperan penting dalam lebih dari 500 reaksi enzimatik, termasuk produksi energi mitokondria, perbaikan kerusakan DNA, serta pengaturan ritme sirkadian tubuh. Penelitian yang dipublikasikan dalam Cell Metabolism menunjukkan bahwa kadar NAD+ dapat menurun sekitar 50% antara usia 40 hingga 60 tahun. Penurunan ini dikaitkan dengan berkurangnya produksi energi sel, proses perbaikan jaringan yang lebih lambat, serta meningkatnya penanda penuaan biologis.",
+    "descriptionTwo": "Terapi NAD+ intravena memberikan koenzim langsung ke dalam aliran darah, sehingga melewati proses pemecahan di saluran pencernaan dan metabolisme lintas pertama di hati. Metode ini memungkinkan bioavailabilitas yang hampir sepenuhnya terserap oleh tubuh dibandingkan dengan bioavailabilitas sekitar 5-30% pada prekursor NAD+ oral seperti NMN (nicotinamide mononucleotide) atau NR (nicotinamide riboside), yang bergantung pada proses konversi enzimatik di usus dan hati sebelum masuk ke dalam sirkulasi darah.",
+    "descriptionThree": "Di Reviv Indonesia, terapi NAD+ intravena — yang secara lokal dikenal sebagai terapi NAD+ Bali — tersedia dalam empat pilihan dosis: 100mg, 250mg, 500mg, dan 750mg, yang diberikan selama 1 hingga 5 jam tergantung pada protokol yang dipilih. Semua sesi dilakukan oleh dokter Indonesia berlisensi STR sebagai bagian dari jaringan medis Cepat Sehat Group.",
+    "learnMore": "Baca Detail"
+  },
+  "aiMedicalAuthority": {
+    "label": "Otoritas Medis",
+    "title": "Dewan Penasihat Medis Reviv Indonesia",
+    "description": "Protokol terapi NAD+ Reviv Indonesia diawasi oleh Dewan Penasihat Medis yang terdiri dari dokter Indonesia berlisensi, memiliki kredensial STR dari Konsil Kedokteran Indonesia serta pelatihan khusus dalam bidang kedokteran regeneratif.",
+    "authorityOne": {
+      "title": "Dokter Bersertifikasi STR",
+      "description": "Seluruh tenaga medis terdaftar di Konsil Kedokteran Indonesia (KKI)"
+    },
+    "authorityTwo": {
+      "title": "Pelatihan Kedokteran Regeneratif",
+      "description": "Spesialis dalam protokol terapi IV dan pengobatan anti-aging"
+    },
+    "authorityThree": {
+      "title": "Jaringan Cepat Sehat Group",
+      "description": "Bagian dari jaringan layanan homecare medis berlisensi terbesar di Indonesia"
+    },
+    "authorityFour": {
+      "title": "5.000+ Sesi NAD+",
+      "description": "Sesi infus NAD+ yang diberikan oleh jaringan medis Reviv Indonesia"
+    },
+    "verify": "Verifikasi kredensial STR — Konsil Kedokteran Indonesia",
+    "meetMedical": "Temui Tim Medis"
+  },
+  "aiTestimonials": {
+    "label": "Ulasan Klien",
+    "title": "Apa Kata Klien Kami",
+    "subtitle": "Cerita nyata dari orang-orang yang telah merasakan perbedaan bersama Reviv Indonesia.",
+    "clients": {
+      "jessica": {
+        "quote": "Menjalankan bisnis di Bali sering terasa melelahkan. Setelah beberapa sesi, saya merasa fokus saya bertahan lebih lama dan tidak mudah lelah secara mental di tengah hari. Ini membantu saya tetap jernih dan lebih seimbang.",
+        "name": "Rafi K.",
+        "title": "Pengusaha"
+      },
+      "david": {
+        "quote": "Saya memulai sesi ini karena ingin sesuatu yang membuat saya merasa lebih muda, bukan hanya terlihat lebih muda. Setelah beberapa minggu, energi saya terasa lebih stabil dan kulit saya terlihat lebih segar. Sekarang ini menjadi bagian dari rutinitas saya untuk menua dengan sehat.",
+        "name": "Clara M.",
+        "title": "Direktur Kreatif"
+      },
+      "sophia": {
+        "quote": "Kabut mental yang biasanya saya rasakan di tengah minggu hilang. Saya merasa lebih tajam dan lebih fokus, terutama saat bekerja.",
+        "name": "Alex T.",
+        "title": "Pekerja Remote"
+      }
+    }
+  },
+  "aiNadArea": {
+    "label": "Melayani Seluruh Bali",
+    "title": "Terapi NAD+ Berdasarkan Lokasi",
+    "nadOne": {
+      "location": "Terapi NAD+ di Canggu",
+      "description": "Pusat digital nomad. Sesi di hari yang sama tersedia di Canggu, Berawa & Pererenan."
+    },
+    "nadTwo": {
+      "location": "Terapi NAD+ di Seminyak",
+      "description": "Area vila mewah & beach club. Tersedia dari pagi hingga malam."
+    },
+    "nadThree": {
+      "location": "Terapi NAD+ di Jimbaran",
+      "description": "Layanan cepat di area Jimbaran dan sekitarnya dengan kunjungan langsung ke villa atau hotel."
+    },
+    "nadFour": {
+      "location": "Terapi NAD+ di Ubud",
+      "description": "Pusat retreat wellness. Padukan terapi NAD+ dengan program yoga Anda di Ubud."
+    }
+  },
+  "aiFaqPage": {
+    "badge": "Terapi NAD+",
+    "title": "Pertanyaan yang Sering Diajukan",
+    "description": "Jawaban lengkap tentang terapi NAD+ IV di Bali — cara kerja, keamanan, dosis, biaya, dan cara pemesanan.",
+
+    "q1": "Apa itu terapi NAD+ IV?",
+    "a1": "Terapi NAD+ IV adalah perawatan intravena yang mengantarkan nicotinamide adenine dinucleotide langsung ke aliran darah. Ini melewati sistem pencernaan sepenuhnya, mencapai bioavailabilitas mendekati 100% dibandingkan sekitar 5–30% dari suplemen oral. Setelah dalam sirkulasi, NAD+ mendukung lebih dari 500 reaksi enzimatik termasuk produksi energi mitokondria dan perbaikan DNA.",
+
+    "q2": "Bagaimana cara kerja terapi NAD+ IV?",
+    "a2": "NAD+ memasuki sel dan mendukung produksi ATP mitokondria — mata uang energi dasar tubuh. NAD+ juga mengaktifkan protein sirtuin yang bertanggung jawab untuk perbaikan DNA dan sinyal umur panjang seluler. Jalur IV menjenuhkan jaringan lebih lengkap dan cepat dibandingkan prekursor oral, itulah mengapa sebagian besar klien merasakan efeknya dalam 2–6 jam setelah sesi.",
+
+    "q3": "Apakah terapi NAD+ IV aman?",
+    "a3": "Terapi NAD+ IV memiliki profil keamanan yang terdokumentasi dengan baik ketika diberikan pada kecepatan infus yang tepat oleh profesional medis terlatih. Di Reviv Indonesia, setiap sesi dilakukan oleh dokter Indonesia berlisensi STR yang menyelesaikan penilaian kesehatan pra-sesi. Efek samping yang paling umum bersifat ringan dan sementara: kemerahan, rasa hangat, atau mual singkat — semuanya dikelola dengan menyesuaikan kecepatan tetes.",
+
+    "q4": "Apa saja efek samping terapi NAD+?",
+    "a4": "Efek samping yang paling umum bergantung pada kecepatan infus: kemerahan, mual singkat, atau sensasi hangat. Pada dosis lebih tinggi (500mg–750mg), beberapa klien merasakan ketegangan otot sementara jika kecepatan tetes terlalu cepat. Efek samping serius jarang terjadi dengan pengawasan medis yang tepat. Kelelahan pasca-sesi kadang terjadi setelah sesi dosis tinggi dan biasanya hilang dalam 24 jam.",
+
+    "q5": "Berapa lama sesi NAD+ IV di Bali?",
+    "a5": "Durasi sesi tergantung pada dosis. NAD+ Reboot 100mg membutuhkan 1–1,5 jam. NAD+ Revive 250mg membutuhkan 2–2,5 jam. NAD+ Regenerate 500mg berlangsung 3–3,5 jam. NAD+ Elite 750mg membutuhkan 4–5 jam. Semua sesi dilakukan di villa Anda — tidak perlu waktu perjalanan. Dokter kami tiba 15 menit sebelum sesi untuk persiapan dan penilaian.",
+
+    "q6": "Berapa biaya terapi NAD+ di Bali?",
+    "a6": "Harga NAD+ Reviv Indonesia: NAD+ Reboot 100mg Rp 2.390.000, NAD+ Revive 250mg Rp 3.390.000, NAD+ Regenerate 500mg Rp 3.890.000, dan NAD+ Elite 750mg Rp 4.390.000. Semua harga sudah termasuk pengiriman ke villa, penilaian dokter, senyawa NAD+ bermutu farmasi, dan pemantauan pasca-sesi. Tidak ada biaya tersembunyi.",
+
+    "q7": "Apakah terapi NAD+ IV lebih baik dari suplemen oral?",
+    "a7": "Terapi NAD+ IV mencapai bioavailabilitas hampir sempurna dalam hitungan menit, sementara prekursor NAD+ oral (NMN, NR) mengantarkan sekitar 5–30% ke jaringan selama berminggu-minggu. IV paling baik untuk fase pemuatan — memulihkan kadar NAD+ yang habis dengan cepat. Suplemen oral cocok untuk pemeliharaan harian. Banyak praktisi longevitas menggunakan keduanya: IV setiap kuartal, suplemen oral di antaranya.",
+
+    "q8": "Siapa yang paling cocok untuk terapi NAD+?",
+    "a8": "Terapi NAD+ IV memberikan manfaat paling nyata bagi orang di atas 35 tahun. Profil umum meliputi profesional yang mengalami kelelahan atau penurunan kognitif persisten, penggemar longevitas yang menginginkan saturasi jaringan lebih dalam, atlet yang mencari pemulihan lebih cepat, dan wisatawan kesehatan di Bali. Kontraindikasi termasuk kanker aktif, kondisi jantung tertentu, dan kehamilan — disaring selama penilaian pra-sesi.",
+
+    "q9": "Area mana saja yang dilayani Reviv Indonesia?",
+    "a9": "Reviv Indonesia menyediakan terapi NAD+ IV di seluruh Bali termasuk Canggu, Seminyak, Ubud, Sanur, Nusa Dua, dan Uluwatu. Layanan pengiriman ke villa maupun sesi berbasis klinik tersedia di semua area cakupan. Dokter kami membawa peralatan sekali pakai yang steril dan menerapkan protokol keselamatan yang sama di setiap lokasi.",
+
+    "q10": "Bagaimana cara memesan sesi NAD+ di Reviv Indonesia?",
+    "a10": "Pemesanan dilakukan melalui WhatsApp — janji temu di hari yang sama tersedia tergantung ketersediaan dokter. Hubungi kami dengan protokol yang Anda inginkan (100mg–750mg), lokasi Anda di Bali, dan tanggal serta waktu yang diinginkan. Dokter akan mengkonfirmasi ketersediaan dan melakukan penilaian kesehatan singkat sebelum infus Anda.",
+
+    "related_title": "Jelajahi Lebih Lanjut",
+    "link1_title": "Tentang Terapi NAD+",
+    "link2_title": "NAD+ di Canggu",
+    "link3_title": "NAD+ di Seminyak",
+    "link4_title": "NAD+ di Ubud",
+    "link5_title": "Tim Medis Kami",
+
+    "cta_title": "Masih punya pertanyaan?",
+    "cta_description": "Tim medis kami membalas di WhatsApp dalam waktu 15 menit. Tidak perlu komitmen untuk bertanya.",
+    "cta_button": "Tanya di WhatsApp"
+  }
 }

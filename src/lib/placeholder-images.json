@@ -1,6 +1,12 @@
 {
   "placeholderImages": [
     {
+      "id": "team-hero",
+      "description": "Medical professionals in white coats standing together in a modern clinic setting",
+      "imageUrl": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8bWVkaWNhbCUyMHRlYW18ZW58MHx8fHwxNzU5NzQzNDk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical team"
+    },
+    {
       "id": "nad-reboot-100",
       "description": "NAD+ Reboot 100 IV bag",
       "imageUrl": "/assets/images/products/r-biru.webp",
@@ -38,32 +44,32 @@
     },
     {
       "id": "doc1",
-      "imageUrl": "https://images.unsplash.com/photo-1612531385446-f7e6d131e1d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkb2N0b3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3NDM0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "description": "Photo of Dr. Evelyn Reed",
+      "imageUrl": "/assets/images/doctors/cahya.png",
+      "description": "Photo of Cahyadi",
       "imageHint": "doctor portrait"
     },
     {
       "id": "doc2",
-      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkb2N0b3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3NDM0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "description": "Photo of Dr. Marcus Thorne",
+      "imageUrl": "/assets/images/doctors/yahya.png",
+      "description": "Photo of Yahya",
       "imageHint": "doctor portrait"
     },
     {
       "id": "doc3",
-      "imageUrl": "https://images.unsplash.com/photo-1651008376811-b90baee60c1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkb2N0b3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3NDM0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "description": "Photo of Dr. Amelia Vance",
+      "imageUrl": "/assets/images/doctors/mega.png",
+      "description": "Photo of Mega",
       "imageHint": "doctor portrait"
     },
     {
       "id": "doc4",
-      "imageUrl": "https://images.unsplash.com/photo-1612349316228-5942a9b489c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkb2N0b3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3NDM0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "description": "Photo of Dr. Julian Hayes",
-      "imageHint": "doctor portrait"
+      "imageUrl": "/assets/images/doctors/lorenzo.png",
+      "description": "Photo of Lorenzo",
+      "imageHint": "doctor portrait Lorenzo"
     },
     {
       "id": "doc5",
-      "imageUrl": "https://images.unsplash.com/photo-1642541724244-83d49288a86b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkb2N0b3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3NDM0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "description": "Photo of Dr. Clara Monroe",
+      "imageUrl": "/assets/images/doctors/agung.png",
+      "description": "Photo of Agung",
       "imageHint": "doctor portrait"
     },
     {
@@ -95,6 +101,114 @@
       "imageUrl": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&q=80&w=1080",
       "description": "Smiling couple enjoying a Bali sunset",
       "imageHint": "couple sunset"
+    },
+    {
+      "id": "nad-canggu-hero",
+      "imageUrl": "https://images.unsplash.com/photo-1578990628400-94f031afbe3d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Smiling couple enjoying a Bali sunset",
+      "imageHint": "nad + in canggu"
+    },
+    {
+      "id": "nad-canggu-testi1",
+      "imageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlfGVufDB8fDB8fHww",
+      "description": "Testimonial Canggu User",
+      "imageHint": "nad canggu testi"
+    },
+    {
+      "id": "nad-canggu-testi2",
+      "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww",
+      "description": "Testimonial Canggu User",
+      "imageHint": "nad canggu testi"
+    },
+    {
+      "id": "nad-canggu-testi3",
+      "imageUrl": "https://images.unsplash.com/photo-1619018835000-f326c26196b3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a29yZWFuJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D",
+      "description": "Testimonial Canggu User",
+      "imageHint": "nad canggu testi"
+    },
+    {
+      "id": "nad-seminyak-hero",
+      "imageUrl": "https://images.unsplash.com/photo-1571984405176-5958bd9ac31d?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Beach view in sunset",
+      "imageHint": "nad + in seminyak"
+    },
+    {
+      "id": "nad-seminyak-testi1",
+      "imageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlfGVufDB8fDB8fHww",
+      "description": "Testimonial Seminyak User",
+      "imageHint": "nad seminyak testi"
+    },
+    {
+      "id": "nad-seminyak-testi2",
+      "imageUrl": "https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d29tZW58ZW58MHx8MHx8fDA%3D",
+      "description": "Testimonial Seminyak User",
+      "imageHint": "nad seminyak testi"
+    },
+    {
+      "id": "nad-seminyak-testi3",
+      "imageUrl": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFufGVufDB8fDB8fHww",
+      "description": "Testimonial Seminyak User",
+      "imageHint": "nad seminyak testi"
+    },
+    {
+      "id": "nad-ubud-hero",
+      "imageUrl": "https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Ubud point of view nature",
+      "imageHint": "nad + in ubud"
+    },
+    {
+      "id": "nad-ubud-testi1",
+      "imageUrl": "https://images.unsplash.com/photo-1695754834691-f3add17f2b98?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFzaWFuJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D",
+      "description": "Testimonial Ubud User",
+      "imageHint": "nad ubud testi"
+    },
+    {
+      "id": "nad-ubud-testi2",
+      "imageUrl": "https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d29tZW58ZW58MHx8MHx8fDA%3D",
+      "description": "Testimonial Ubud User",
+      "imageHint": "nad ubud testi"
+    },
+    {
+      "id": "nad-ubud-testi3",
+      "imageUrl": "https://images.unsplash.com/photo-1616325629936-99a9013c29c6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXNpYW4lMjBnaXJsfGVufDB8fDB8fHww",
+      "description": "Testimonial Ubud User",
+      "imageHint": "nad ubud testi"
+    },
+    {
+      "id": "banner-nad-benefit",
+      "imageUrl": "/assets/images/articles/nad-benefit-research.webp",
+      "description": "Nad Benefit Research",
+      "imageHint": "research of nad benefit"
+    },
+    {
+      "id": "banner-nad-dosage",
+      "imageUrl": "/assets/images/articles/nad-dosage-guide.webp",
+      "description": "Nad Dosage Guide",
+      "imageHint": "nad dosage guide"
+    },
+    {
+      "id": "banner-nad-side-effects",
+      "imageUrl": "/assets/images/articles/nad-side-effects.webp",
+      "description": "Nad Side Effects",
+      "imageHint": "nad side effects"
+    },
+    {
+      "id": "banner-nad-iv-suplements",
+      "imageUrl": "/assets/images/articles/nad-vs-suplements.webp",
+      "description": "Nad IV vs Suplements",
+      "imageHint": "comparison nad IV and Suplements"
+    },
+    {
+      "id": "blog-banner-article",
+      "imageUrl": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Banner Article For Medical Blog",
+      "imageHint": "read our article blog about nad+"
+    },
+    {
+      "id": "faq-page",
+      "imageUrl": "https://images.unsplash.com/photo-1758691462863-9e1b8a863140?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Frequently Asked Question",
+      "imageHint": "faq patients"
     }
   ]
 }
