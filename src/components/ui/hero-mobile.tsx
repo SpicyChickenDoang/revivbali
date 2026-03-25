@@ -35,7 +35,7 @@ export const HeroMobile = () => {
           fill
           priority
           className="object-cover"
-          sizes="100vw"
+          sizes="(max-width: 640px) 100vw, 0vw"
         />
       )}
 
