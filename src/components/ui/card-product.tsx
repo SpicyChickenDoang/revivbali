@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { IoFlash } from "react-icons/io5";
 import { dowa, formatPrice } from "@/lib/utils";

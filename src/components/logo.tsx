@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
-export function Logo() {
+export function Logo({ lang }: { lang: any }) {
   return (
-    <div className="flex items-center space-x-2">
+    <Link href={`/${lang}`} className="flex items-center space-x-2">
       <Image
         src="/assets/images/logo-reviv.png"
         alt="logo reviv indonesia"
@@ -11,6 +12,6 @@ export function Logo() {
         sizes="100vw"
         className="w-auto h-10 sm:h-12"
       />
-    </div>
+    </Link>
   );
 }

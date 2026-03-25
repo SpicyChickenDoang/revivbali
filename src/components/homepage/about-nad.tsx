@@ -36,9 +36,6 @@ export const AboutNad = ({
               </div>
             </div>
             <div className="flex flex-col gap-4">
-              {/* <div className="bg-gray-100 rounded-lg w-full h-64 sm:h-96 flex items-center justify-center">
-                PLACEHOLDER IMAGE
-              </div> */}
               <Image
                 src="/assets/images/about-nad+.webp"
                 width={0}

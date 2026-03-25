@@ -5,7 +5,7 @@ import "./globals.css";
 // import { SiteFooter } from "@/components/site-footer";
 // import { WhatsappButton } from "@/components/whatsapp-button";
 import { Toaster } from "@/components/ui/toaster";
-import { getDictionary } from "@/server/get-dictionary";
+// import { getDictionary } from "@/server/get-dictionary";
 import { Locale, i18n } from "@/i18n-config";
 import Script from "next/script";
 import { Navbar } from "@/components/navbar";
@@ -24,7 +24,7 @@ export default async function RootLayout({
   params: { lang: Locale };
 }>) {
   const lang = (params.lang as Locale) || i18n.defaultLocale;
-  const dictionary = await getDictionary(lang);
+  // const dictionary = await getDictionary(lang);
 
   return (
     <html lang={lang} suppressHydrationWarning>
@@ -37,7 +37,7 @@ export default async function RootLayout({
           })(window,document,'script','dataLayer','GTM-TDW3L66J');`}
         </Script>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
@@ -46,7 +46,7 @@ export default async function RootLayout({
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=PT+Sans:wght@400;700&display=swap"
           rel="stylesheet"
-        />
+        /> */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

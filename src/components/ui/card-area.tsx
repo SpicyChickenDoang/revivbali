@@ -15,7 +15,7 @@ export const CardArea = ({ location, description, slug }: CustomProps) => {
       <p className="text-black">{description}</p>
       <div className="flex items-center justify-end">
         <div className="px-6 py-2 cta_btn w-fit">
-          <p className="text-sm sm:text-base text-white">View Detail</p>
+          <p className="text-white">View Detail</p>
         </div>
       </div>
     </Link>

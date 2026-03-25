@@ -37,7 +37,7 @@ export const Footer = () => {
             <div className="flex flex-col gap-4">
               {/* <Logo /> */}
               <span>
-                <Logo />
+                <Logo lang={lang} />
               </span>
               <p className="text-black">
                 {lang != "en"

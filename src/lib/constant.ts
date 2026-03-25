@@ -469,3 +469,14 @@ export const faqPage = {
     },
   ],
 };
+
+export const prewritten = {
+  bookNad: {
+    en: "I would like to book a NAD+ infusion.",
+    id: "Aku ingin memesan NAD+ infusion.",
+  },
+  moreAboutNad: {
+    en: "Hello revivindonesia.com! I would like to know more about NAD+ therapy.",
+    id: "Halo revivindonesia.com! Saya ingin tahu lebih lanjut tentang terapi NAD+.",
+  },
+};

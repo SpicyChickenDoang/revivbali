@@ -5,6 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { whatsappNumber } from "@/lib/constant";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Image from "next/image";
+import { getMessage } from "@/lib/utils";
 
 export async function generateMetadata({
   params,
@@ -67,10 +68,7 @@ export default async function FaqPage(props: {
 
   const heroImage = PlaceHolderImages.find((img) => img.id === "faq-page");
 
-  const message =
-    lang != "id"
-      ? "Hello revivindonesia.com! I would like to know more about NAD+ therapy."
-      : "Halo revivindonesia.com! Saya ingin tahu lebih lanjut tentang terapi NAD+.";
+  const message = getMessage("moreAboutNad", lang);
 
   const faqs = [
     { question: d.q1, answer: d.a1 },

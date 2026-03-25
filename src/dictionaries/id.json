@@ -497,7 +497,7 @@
     "cta": {
       "title": "Siap mencoba terapi NAD+?",
       "description": "Tim medis kami dapat membantu Anda memilih dosis dan protokol yang tepat.",
-      "button": "WhatsApp tim medis kami sekarang"
+      "button": "Pesan NAD+ Sekarang"
     }
    
   },
@@ -739,6 +739,6 @@
 
     "cta_title": "Masih punya pertanyaan?",
     "cta_description": "Tim medis kami membalas di WhatsApp dalam waktu 15 menit. Tidak perlu komitmen untuk bertanya.",
-    "cta_button": "Tanya di WhatsApp"
+    "cta_button": "Tanya Melalui WhatsApp"
   }
 }

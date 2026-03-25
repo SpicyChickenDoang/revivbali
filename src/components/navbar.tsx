@@ -49,7 +49,7 @@ export const Navbar = () => {
       {/* Main Navbar */}
       <div className="flex items-center justify-between max-w-7xl mx-auto py-4">
         <span>
-          <Logo />
+          <Logo lang={lang} />
         </span>
 
         {/* Desktop Menu */}
@@ -122,7 +122,7 @@ export const Navbar = () => {
         }`}
       >
         <span className="absolute top-5 left-5">
-          <Logo />
+          <Logo lang={lang} />
         </span>
         <button
           className="absolute top-5 right-5"

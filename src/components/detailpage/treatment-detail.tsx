@@ -87,8 +87,7 @@ export const TreatmentDetail = ({
                 </p>
               </div>
               <button
-                onClick={(e) => {
-                  e.preventDefault();
+                onClick={() => {
                   dowa(message, konektorCta);
                 }}
                 className="py-3 px-6 cta_btn flex items-center gap-2 justify-center"

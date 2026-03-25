@@ -34,7 +34,9 @@ export const Faq = ({ dictionary }: { dictionary: any }) => {
             <h2 className="text-3xl sm:text-4xl font-semibold text-zinc-800 text-center sm:text-start">
               {dictionary.title}
             </h2>
-            <p className="text-gray-500 text-lg">{dictionary.description}</p>
+            <p className="text-gray-500 text-lg text-center sm:text-start">
+              {dictionary.description}
+            </p>
           </div>
           <div className="flex flex-col gap-6 sm:col-span-3">
             <div className="flex flex-col gap-0">

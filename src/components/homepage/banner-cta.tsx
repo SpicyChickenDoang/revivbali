@@ -1,6 +1,6 @@
 "use client";
 
-import { dowa } from "@/lib/utils";
+import { dowa, getMessage } from "@/lib/utils";
 import { FaWhatsapp } from "react-icons/fa";
 
 export const BannerCta = ({
@@ -10,10 +10,7 @@ export const BannerCta = ({
   lang: any;
   dictionary: any;
 }) => {
-  const message =
-    lang != "id"
-      ? "I would like to book a NAD+ infusion."
-      : "Aku ingin memesan NAD+ infusion.";
+  const message = getMessage("bookNad", lang);
   const konektorCta = "https://chat.revivindonesia.com/wa-click";
   return (
     <section className="px-4 py-10">
@@ -28,8 +25,7 @@ export const BannerCta = ({
             </div>
             <div className="flex flex-col gap-2">
               <button
-                onClick={(e) => {
-                  e.preventDefault();
+                onClick={() => {
                   dowa(message, konektorCta);
                 }}
                 className="px-6 py-2 cta_btn flex items-center gap-2 justify-center"

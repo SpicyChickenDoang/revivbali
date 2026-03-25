@@ -2,9 +2,10 @@ import { getDictionary } from "@/server/get-dictionary";
 import { Locale } from "@/i18n-config";
 import Image from "next/image";
 import Link from "next/link";
-import { Pill, Droplets, CheckCircle2, Zap } from "lucide-react";
+import { Pill, Droplets, Zap } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { whatsappNumber } from "@/lib/constant";
+import { BookNow } from "@/components/ui/book-now";
 
 export async function generateMetadata({
   params,
@@ -507,19 +508,10 @@ export default async function WhatIsNadPage(props: {
                 {dictionary.whatIsNadPage.cta.title}
               </h1>
               <div className="flex items-center justify-center gap-6 flex-wrap">
-                <Link
-                  href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-                    message,
-                  )}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-6 py-2 cta_btn hover:scale-105 transition-all flex items-center gap-2 w-fit"
-                >
-                  <FaWhatsapp className="size-5 text-white" />
-                  <p className="text-white">
-                    {dictionary.whatIsNadPage.cta.button}
-                  </p>
-                </Link>
+                <BookNow
+                  lang={lang}
+                  dictionary={dictionary.whatIsNadPage.cta.button}
+                />
               </div>
             </div>
           </div>

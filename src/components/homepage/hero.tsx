@@ -1,17 +1,13 @@
 "use client";
 
 import { FaWhatsapp } from "react-icons/fa";
-import { dowa } from "@/lib/utils";
-
+import { dowa, getMessage } from "@/lib/utils";
 import Link from "next/link";
 import { HeroMobile } from "../ui/hero-mobile";
 import { HeroDesktop } from "../ui/hero-desktop";
 
 export const Hero = ({ lang, dictionary }: { lang: any; dictionary: any }) => {
-  const message =
-    lang != "id"
-      ? "I would like to book a NAD+ infusion."
-      : "Aku ingin memesan NAD+ infusion.";
+  const message = getMessage("bookNad", lang);
   const konektorCta = "https://chat.revivindonesia.com/wa-click";
   return (
     <>
@@ -34,14 +30,15 @@ export const Hero = ({ lang, dictionary }: { lang: any; dictionary: any }) => {
               </h1>
               <p className="text-gray-500 text-lg">{dictionary.description}</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-4">
-                <Link
-                  href="#"
-                  onClick={() => dowa(message, konektorCta)}
+                <button
+                  onClick={() => {
+                    dowa(message, konektorCta);
+                  }}
                   className="w-full px-6 py-2 cta_btn flex items-center justify-center gap-2"
                 >
                   <FaWhatsapp className="size-5 text-white" />
                   <p className="text-white">{dictionary.ctaBookNow}</p>
-                </Link>
+                </button>
                 <Link
                   href="#our-products"
                   className="w-full bg-white px-6 py-2 rounded-lg border text-center text-black"

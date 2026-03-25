@@ -72,10 +72,6 @@ export default async function TeamPage(props: {
   const dictionary = await getDictionary(lang);
 
   const heroImage = PlaceHolderImages.find((img) => img.id === "team-hero");
-  const message =
-    lang != "id"
-      ? "Hello revivindonesia.com! I would like to book a NAD+ infusion."
-      : "Halo revivindonesia.com! Aku ingin memesan NAD+ infusion.";
 
   const trusts = [
     {
@@ -387,6 +383,7 @@ export default async function TeamPage(props: {
         </div>
       </section>
 
+      {/* FAQ */}
       <Faq dictionary={dictionary.aiFaqDoctor} />
 
       {/* Internal Link */}

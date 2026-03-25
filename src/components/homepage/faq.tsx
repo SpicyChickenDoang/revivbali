@@ -28,11 +28,15 @@ export const Faq = ({ dictionary }: { dictionary: any }) => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-5 gap-6">
           <div className="flex flex-col gap-6 sm:col-span-2">
-            <p className="text-primary_color uppercase font-medium">FAQ</p>
+            <p className="text-primary_color uppercase font-medium text-center sm:text-start">
+              FAQ
+            </p>
             <h2 className="text-3xl sm:text-4xl font-semibold text-zinc-800 text-center sm:text-start">
               {dictionary.title}
             </h2>
-            <p className="text-gray-500 text-lg">{dictionary.description}</p>
+            <p className="text-gray-500 text-lg text-center sm:text-start">
+              {dictionary.description}
+            </p>
           </div>
           <div className="flex flex-col gap-6 sm:col-span-3">
             <div className="flex flex-col gap-0">

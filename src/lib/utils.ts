@@ -1,5 +1,6 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
+import { prewritten } from "./constant";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -18,4 +19,9 @@ export const formatPrice = (price: number) => {
   })
     .format(price)
     .replace("IDR", "Rp");
+};
+
+export const getMessage = (key: keyof typeof prewritten, lang: string) => {
+  const entry = prewritten[key];
+  return lang === "id" ? entry.id : entry.en;
 };
