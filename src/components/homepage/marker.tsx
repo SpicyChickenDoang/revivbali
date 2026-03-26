@@ -26,7 +26,7 @@ export const MarkerPage = ({ dictionary }: { dictionary: any }) => {
               <h3 className="text-xl sm:text-2xl font-semibold text-primary_color">
                 {mark.title}
               </h3>
-              <p className="text-black">{mark.title}</p>
+              <p className="text-black text-center">{mark.desc}</p>
             </div>
           ))}
         </div>

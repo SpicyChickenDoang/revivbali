@@ -35,6 +35,11 @@ export const InternalLink = ({
       description: dictionary.link5_desc,
       href: `/${lang}/faq`,
     },
+    {
+      title: dictionary.link6_title,
+      description: dictionary.link6_desc,
+      href: `/${lang}/safety`,
+    },
   ];
   return (
     <section className="py-10 px-4">

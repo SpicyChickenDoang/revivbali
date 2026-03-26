@@ -332,7 +332,9 @@
       "link4_title": "NAD+ in Ubud",
       "link4_desc": "NAD+ therapy options in Ubud and surrounds.",
       "link5_title": "Full FAQ",
-      "link5_desc": "Complete answers about NAD+ therapy and booking."
+      "link5_desc": "Complete answers about NAD+ therapy and booking.",
+      "link6_title": "Safety & Screening",
+      "link6_desc": "Every NAD+ session at RevivIndonesia begins long before the IV is placed."
     }
   },
   "whatIsNadPage": {
@@ -743,5 +745,119 @@
     "cta_title": "Still have questions?",
     "cta_description": "Our medical team replies on WhatsApp in under 15 minutes. No commitment to enquire.",
     "cta_button": "Ask On WhatsApp"
+  },
+  "aiSafetyPage": {
+  "hero": {
+    "title": "Safety and Screening",
+    "description": "Our medical team conducts a through assessment to ensure NAD+ therapy is appropriate for you — and delivered safely."
+  },
+  "markers": {
+    "items": [
+      {
+        "title": "STR",
+        "desc": "Licensed physicians,registered with KKI"
+      },
+      {
+        "title": "100%",
+        "desc": "Pharmaceutical-grade NAD+ compounds"
+      },
+      {
+        "title": "5,000+",
+        "desc": "NAD+ sessions safely administered"
+      },
+      {
+        "title": "24/7",
+        "desc": "Emergency protocol trained staff"
+      }
+    ]
+  },
+  "screening": {
+    "title": "The Screening Process",
+    "steps": [
+      {
+        "title": "Initial Consultation",
+        "desc": "A licensed physician reviews your medical history, medications, and goals via WhatsApp or in person.",
+        "note": "Pre-session"
+      },
+      {
+        "title": "Medical Assessment",
+        "desc": "On treatment day, our doctor checks blood pressure, heart rate, and hydration status.",
+        "note": "On Arrival"
+      },
+      {
+        "title": "Dosage Calibration",
+        "desc": "Infusion rate is adjusted based on your response to reduce side effects.",
+        "note": "During Session"
+      },
+      {
+        "title": "Post Session Monitoring",
+        "desc": "Our team monitors your condition and provides aftercare guidance.",
+        "note": "Post Session"
+      }
+    ]
+  },
+  "eligibility": {
+    "title": "Eligibility Criteria",
+    "description": "NAD+ IV therapy is suitable for most healthy adults. Our team evaluates the following:",
+    "items": [
+      {
+        "title": "Age 18 and above",
+        "desc": "Suitable for adults. NAD+ levels decline with age, especially after 40."
+      },
+      {
+        "title": "No active severe illness",
+        "desc": "Patients should not be in an acute phase of serious illness."
+      },
+      {
+        "title": "Medication review passed",
+        "desc": "We ensure no interaction between medications and NAD+ therapy."
+      },
+      {
+        "title": "Adequate hydration",
+        "desc": "Proper hydration improves infusion comfort and effectiveness."
+      }
+    ]
+  },
+  "protocols": {
+    "title": "Built-in Safety Protocols",
+    "description": "Every part of our process is designed with patient safety as the top priority.",
+    "items": [
+      {
+        "mark": "🧬",
+        "title": "Pharmaceutical-Grade NAD+",
+        "desc": "We source only certified pharmaceutical-grade NAD+ compounds. We never use low-grade or unverified suppliers regardless of cost savings."
+      },
+      {
+        "mark": "❄️",
+        "title": "Cold Chain Integrity",
+        "desc": "NAD+ is heat-sensitive and requires refrigeration. We maintain cold chain integrity from storage to your villa — never compromised."
+      },
+      {
+        "mark": "👨‍⚕️",
+        "title": "STR-Licensed Physicians",
+        "desc": "All medical staff hold valid STR (Surat Tanda Registrasi) credentials issued by the Indonesian Medical Council (KKI). Verifiable on request."
+      },
+      {
+        "mark": "⚡",
+        "title": "Emergency Readiness",
+        "desc": "Our team is trained in managing adverse reactions including anaphylaxis. Emergency medications and equipment are carried to every session."
+      },
+      {
+        "mark": "📋",
+        "title": "Individual Assessment",
+        "desc": "No two patients are the same. Every person receives an individual assessment before treatment — no cookie-cutter dosing."
+      },
+      {
+        "mark": "🔒",
+        "title": "Sterile Equipment",
+        "desc": "All IV equipment is single-use and sterile. We follow strict aseptic technique for cannula insertion and line management."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Start Your NAD+ Journey?",
+    "description": "Our team will guide you and recommend the right protocol.",
+    "button": "Ask on WhatsApp"
   }
+}
 }

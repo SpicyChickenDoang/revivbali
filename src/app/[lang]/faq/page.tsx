@@ -96,14 +96,6 @@ export default async function FaqPage(props: {
     })),
   };
 
-  const internalLinks = [
-    { title: d.link1_title, href: `/${lang}/nad-therapy` },
-    { title: d.link2_title, href: `/${lang}/nad-canggu` },
-    { title: d.link3_title, href: `/${lang}/nad-seminyak` },
-    { title: d.link4_title, href: `/${lang}/nad-ubud` },
-    { title: d.link5_title, href: `/${lang}/nad-doctors` },
-  ];
-
   return (
     <>
       {/* FAQ Schema */}

@@ -1,10 +1,7 @@
 import { getDictionary } from "@/server/get-dictionary";
 import { Locale } from "@/i18n-config";
 import Image from "next/image";
-import Link from "next/link";
 import { Pill, Droplets, Zap } from "lucide-react";
-import { FaWhatsapp } from "react-icons/fa";
-import { whatsappNumber } from "@/lib/constant";
 import { BookNow } from "@/components/ui/book-now";
 
 export async function generateMetadata({

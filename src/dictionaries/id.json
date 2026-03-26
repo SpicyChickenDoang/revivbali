@@ -329,7 +329,9 @@
       "link3_desc": "Cakupan dan pemesanan untuk area Seminyak.",
       "link4_title": "NAD+ di Ubud",
       "link5_title": "FAQ Lengkap",
-      "link5_desc": "Jawaban lengkap tentang terapi NAD+ dan proses pemesanan."
+      "link5_desc": "Jawaban lengkap tentang terapi NAD+ dan proses pemesanan.",
+       "link6_title": "Safety & Screening",
+      "link6_desc": "Every NAD+ session at RevivIndonesia begins long before the IV is placed."
     }
   },
   "whatIsNadPage": {
@@ -740,5 +742,119 @@
     "cta_title": "Masih punya pertanyaan?",
     "cta_description": "Tim medis kami membalas di WhatsApp dalam waktu 15 menit. Tidak perlu komitmen untuk bertanya.",
     "cta_button": "Tanya Melalui WhatsApp"
+  },
+  "aiSafetyPage": {
+  "hero": {
+    "title": "Keamanan dan Skrining",
+    "description": "Tim medis kami melakukan evaluasi menyeluruh untuk memastikan terapi NAD+ sesuai untuk Anda dan diberikan dengan aman."
+  },
+  "markers": {
+  "items": [
+    {
+      "title": "STR",
+      "desc": "Dokter berlisensi yang terdaftar di KKI"
+    },
+    {
+      "title": "100%",
+      "desc": "NAD+ berkualitas grade farmasi"
+    },
+    {
+      "title": "5.000+",
+      "desc": "Sesi NAD+ telah dilakukan dengan aman"
+    },
+    {
+      "title": "24/7",
+      "desc": "Tim terlatih untuk penanganan darurat"
+    }
+  ]
+},
+  "screening": {
+    "title": "Proses Skrining",
+    "steps": [
+      {
+        "title": "Konsultasi Awal",
+        "desc": "Dokter meninjau riwayat kesehatan dan tujuan terapi.",
+        "note": "Sebelum Sesi"
+      },
+      {
+        "title": "Pemeriksaan Medis",
+        "desc": "Pemeriksaan tekanan darah, detak jantung, dan hidrasi.",
+        "note": "Saat Kedatangan"
+      },
+      {
+        "title": "Penyesuaian Dosis",
+        "desc": "Laju infus disesuaikan untuk mengurangi efek samping.",
+        "note": "Selama Sesi"
+      },
+      {
+        "title": "Pemantauan Setelah Sesi",
+        "desc": "Pemantauan dan panduan setelah terapi.",
+        "note": "Setelah Sesi"
+      }
+    ]
+  },
+  "eligibility": {
+    "title": "Kriteria Kelayakan",
+    "description": "Terapi NAD+ IV cocok untuk sebagian besar orang dewasa sehat:",
+    "items": [
+      {
+        "title": "Usia 18+",
+        "desc": "Kadar NAD+ menurun seiring usia."
+      },
+      {
+        "title": "Tidak sakit berat",
+        "desc": "Tidak dalam kondisi akut penyakit serius."
+      },
+      {
+        "title": "Evaluasi obat",
+        "desc": "Memastikan tidak ada interaksi obat."
+      },
+      {
+        "title": "Hidrasi cukup",
+        "desc": "Membantu proses infus lebih optimal."
+      }
+    ]
+  },
+  "protocols": {
+    "title": "Protokol Keamanan",
+    "description": "Semua proses dirancang dengan fokus pada keselamatan pasien.",
+    "items": [
+    {
+      "mark": "🧬",
+      "title": "NAD+ Grade Farmasi",
+      "desc": "Kami hanya menggunakan NAD+ bersertifikat dengan kualitas grade farmasi. Kami tidak pernah menggunakan produk berkualitas rendah atau dari supplier yang tidak terverifikasi meskipun lebih murah."
+    },
+    {
+      "mark": "❄️",
+      "title": "Sistem Cold Chain",
+      "desc": "NAD+ sensitif terhadap suhu dan memerlukan penyimpanan dingin. Kami menjaga rantai dingin dari penyimpanan hingga ke villa Anda tanpa kompromi."
+    },
+    {
+      "mark": "👨‍⚕️",
+      "title": "Dokter Berlisensi STR",
+      "desc": "Seluruh tenaga medis memiliki STR (Surat Tanda Registrasi) yang masih berlaku dan diterbitkan oleh Konsil Kedokteran Indonesia (KKI). Dapat diverifikasi jika diperlukan."
+    },
+    {
+      "mark": "⚡",
+      "title": "Kesiapan Darurat",
+      "desc": "Tim kami terlatih dalam menangani reaksi medis termasuk anafilaksis. Obat dan peralatan darurat selalu dibawa dalam setiap sesi."
+    },
+    {
+      "mark": "📋",
+      "title": "Evaluasi Individual",
+      "desc": "Setiap pasien memiliki kondisi yang berbeda. Oleh karena itu, setiap individu akan mendapatkan evaluasi khusus sebelum terapi — tanpa pendekatan standar."
+    },
+    {
+      "mark": "🔒",
+      "title": "Peralatan Steril",
+      "desc": "Semua peralatan infus bersifat sekali pakai dan steril. Kami menerapkan teknik aseptik yang ketat dalam pemasangan kanula dan pengelolaan jalur infus."
+    }
+  ]
+  },
+  "cta": {
+    "title": "Siap Memulai Terapi NAD+?",
+    "description": "Tim kami akan membantu menentukan terapi yang tepat.",
+    "button": "Tanya via WhatsApp"
   }
+}
 }
